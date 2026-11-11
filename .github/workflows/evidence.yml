@@ -22,7 +22,8 @@ jobs:
         run: |
           git worktree add --detach "$RUNNER_TEMP/frozen-research" 5710488133292dfbe3ee1df3b731b198a5999031
           cmp EVIDENCE-MANIFEST.json "$RUNNER_TEMP/frozen-research/EVIDENCE-MANIFEST.json"
-          diff -qr site "$RUNNER_TEMP/frozen-research/site" --exclude=public-anchor.json --exclude=public-anchor.js
+          diff -qr site "$RUNNER_TEMP/frozen-research/site" --exclude=public-anchor.json --exclude=public-anchor.js --exclude=index.html
+          python3 qa/check_public_copy.py "$RUNNER_TEMP/frozen-research"
       - name: Verify frozen manifest completeness and all content hashes
         run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/check_manifest.py
       - name: Reconstruct the 5000 source-level observations
