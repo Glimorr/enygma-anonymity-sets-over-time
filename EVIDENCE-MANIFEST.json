@@ -206,8 +206,8 @@
       "sha256": "d67ba7728a368684ba0835ce147295409db567e6670c253c475979736a296602"
     },
     "qa/check_anchor.py": {
-      "bytes": 3545,
-      "sha256": "35e19f1105c9d5a6582a4a70692093f3148a2b785d713f2d43ee34f400264a97"
+      "bytes": 3579,
+      "sha256": "2ba0533fa52e0a7c7637271f6978df15eca4f22280f84e790320d9054bcb83d9"
     },
     "qa/check_manifest.py": {
       "bytes": 2257,
@@ -276,6 +276,10 @@
     "research/PROTOCOL-v1.sha256": {
       "bytes": 90,
       "sha256": "42e24cce7f87fc0b9af79c58aa27cbdd5d573d9a328e646a1fb95289bd99a337"
+    },
+    "research/PUBLIC-TESTNET-ANCHOR-PROCEDURE.md": {
+      "bytes": 2187,
+      "sha256": "ec2eae0648dbde3adde2c21ed0a3e178ae89e9bb0d5be71c965d94a45bbd0066"
     },
     "research/THREE-VIDEO-RECORDING-AND-VOICEOVER.md": {
       "bytes": 5484,
@@ -370,7 +374,7 @@
       "sha256": "a86bc438b4228fb0da232a5695133012ec3d97cc4994916c63ef7e0d056d97ca"
     }
   },
-  "files_merkle_equivalent_sha256": "cb2c77fe2b296184532245c86ec8dde41ef9b7d3b712e06067db16b218474a4d",
+  "files_merkle_equivalent_sha256": "ee9338b512ab07401372ad98bf64e1103f11d212e70656b4e1d6c36f34b4e470",
   "publication_state": "FROZEN_READY_FOR_PUBLICATION",
   "schema_version": 1
 }

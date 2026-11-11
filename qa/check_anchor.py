@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Verify a disclosure-safe Rayls Testnet evidence digest sidecar. No signing keys."""
-import argparse,hashlib,json,pathlib,re,urllib.request
+import argparse,hashlib,json,pathlib,re,subprocess
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 HEX32=re.compile(r"^0x[0-9a-fA-F]{64}$")
 RPC="https://testnet-rpc.rayls.com/"
 def must(condition,message):
     if not condition:raise AssertionError(message)
 def post(method,params):
-    req=urllib.request.Request(RPC,data=json.dumps({"jsonrpc":"2.0","id":1,"method":method,"params":params}).encode(),headers={"Content-Type":"application/json"},method="POST")
-    with urllib.request.urlopen(req,timeout=18) as response:obj=json.load(response)
+    payload=json.dumps({"jsonrpc":"2.0","id":1,"method":method,"params":params}).encode()
+    completed=subprocess.run(["curl","-fsS","--max-time","18","-H","Content-Type: application/json","--data-binary","@-",RPC],input=payload,capture_output=True,check=True)
+    obj=json.loads(completed.stdout)
     if "error" in obj:raise RuntimeError(obj["error"])
     return obj.get("result")
 def main():
