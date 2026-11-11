@@ -38,6 +38,8 @@ jobs:
         run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/check_manifest.py
       - name: Independently authenticate the retrospective public Testnet annex
         run: python3 qa/check_anchor.py --live-rpc
+      - name: Verify current public checkout and original signed archive together
+        run: python3 qa/verify_published_release.py --live-rpc
 
   pinned-native-source:
     runs-on: ubuntu-latest

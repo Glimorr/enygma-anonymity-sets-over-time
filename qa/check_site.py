@@ -58,4 +58,10 @@ def main():
     audit={"result":"PASS","scope":"STANDALONE_OFFLINE_STATIC_SITE","html_ids":len(ids),"links_to_local_assets":len(parsed.asset_refs),"figure_count":len(figure_paths),"hub_mined_batches":len(data["batchRows"]),"hub_encrypted_event_envelopes":36,"receipt_rechecks":15,"source_data_sha256":hashlib.sha256((SITE/"live-data.js").read_bytes()).hexdigest(),"site_runtime_asset_bytes":size,"javascript_network_request_dependencies":0,"reduced_motion":True,"public_rayls_testnet_commitment":"PENDING"}
     if not args.check_only:(ROOT/"qa/site-audit.json").write_text(json.dumps(audit,indent=2)+"\n")
     print("SITE_EVIDENCE_AND_ACCESSIBILITY_STATIC_AUDIT_PASS",json.dumps(audit,sort_keys=True))
-if __name__=="__main__":main()
+if __name__=="__main__":
+    if (ROOT/"site/public-anchor.json").is_file() and (ROOT/".git").exists():
+        import subprocess,sys
+        print("POST_RELEASE_CHECKOUT: verifying the frozen evidence and later public annex separately",flush=True)
+        subprocess.run([sys.executable,str(ROOT/"qa/verify_published_release.py"),"--manifest-only"],check=True)
+    else:
+        main()

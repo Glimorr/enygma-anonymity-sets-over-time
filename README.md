@@ -8,7 +8,7 @@
 
 
 
-**Current evidence status:** A pinned, unmodified Rayls Go relayer function was exercised under ten controlled synthetic payment schedules. It generated 5,000 authentic native-function outputs. Blind membership-frequency analysis identified the preferred receiver in all seven positive scenarios and rejected none of the three null controls. **These are native source-level observations, not blockchain transaction receipts or proof of a vulnerability in a production Rayls network.** The seven-bank local stack now has six mined Hub anonymity-set batches, 36 encrypted event envelopes, 15 receipt-to-fresh-RPC checks, and a reconciled 5,000-unit trial. G settled late after the original timeout. A retrospective public Rayls Testnet SHA-256 archive anchor is recorded separately in site/public-anchor.json when mined.
+**Current evidence status:** A pinned, unmodified Rayls Go relayer function was exercised under ten controlled synthetic payment schedules. It generated 5,000 authentic native-function outputs. Blind membership-frequency analysis identified the preferred receiver in all seven positive scenarios and rejected none of the three null controls. **These are native source-level observations, not blockchain transaction receipts or proof of a vulnerability in a production Rayls network.** The seven-bank local stack now has six mined Hub anonymity-set batches, 36 encrypted event envelopes, 15 receipt-to-fresh-RPC checks, and a reconciled 5,000-unit trial. G settled late after the original timeout. The retrospective Rayls Public Testnet SHA-256 archive anchor is now mined, independently verified and published in `site/public-anchor.json`.
 
 ## Research question and answer
 
@@ -43,7 +43,7 @@ This source-level study is supplemented by genuine transactions on an isolated s
 
 See evidence/local-rpc/ for raw local receipts and independently decoded events; see evidence/local-live-seven/ for the verifier report. The offline command python3 qa/verify_local_live.py --check-only reproduces structural checks without an active node.
 
-**Authentication boundary:** these are genuine mined transactions on one researcher-operated local Private Network Hub, not independent third-party consensus. Six local batches establish observable event structure, not a statistically powered receiver deanonymization result on a production bank. An eventual public testnet hash commitment would establish artifact chronology/integrity, not retroactively authenticate these private-chain events.
+**Authentication boundary:** these are genuine mined transactions on one researcher-operated local Private Network Hub, not independent third-party consensus. Six local batches establish observable event structure, not a statistically powered receiver deanonymization result on a production bank. The confirmed public Testnet hash commitment establishes retrospective archive integrity and recording time, not the independent truth of these private-chain events.
 
 ## Native source and provenance
 
@@ -60,14 +60,23 @@ An official CLI full-stack demo enforces at most six members. Our research-only 
 
 Prerequisites: Python 3.11+ and Git; Go 1.26.x is required for native relayer test reproduction.
 
-From a clean repository checkout:
+From a clean Git checkout of the current public repository, run one command to verify the immutable 93-file archive, source-level observations, local-ledger evidence, negative controls and the published Testnet annex:
 
 ```bash
-python3 qa/check_manifest.py
-python3 qa/check_site.py --check-only
-python3 qa/check_anchor.py --optional
-python3 qa/verify_public.py
-python3 qa/adversarial_checks.py
+python3 qa/verify_published_release.py
+```
+
+To additionally query the **live Rayls Public Testnet RPC** and authenticate the mined archive-hash transaction:
+
+```bash
+python3 qa/verify_published_release.py --live-rpc
+```
+
+The original pinned archive is checked against revision `5710488`, while later presentation updates and the retrospective on-chain receipt are audited separately. Both commands leave the frozen files unchanged. `python3 qa/check_manifest.py` also works in the current checkout and checks the correct frozen archive automatically.
+
+For direct analysis-only reproduction:
+
+```bash
 python3 analysis/analyze_public.py \
   --observer evidence/native/hub_observer_only.csv \
   --metadata evidence/native/native_scenario_metadata.json \
@@ -113,9 +122,9 @@ The underlying statistical disclosure idea predates this experiment; no claim is
 - `evidence/native/`: all observed anonymity sets, synthetic truth and native test log
 - `analysis/`: blinded predictions, cryptographic seal and post-reveal scoring
 - `qa/`: source/independent reproducibility and adversarial verification
-- `site/`: animated 3D research website with local Hub explorer and clear evidence boundaries
+- `site/`: interactive research website, local Hub evidence explorer and clearly labeled evidence boundaries
 - `figures/`: six original reproducible research figures, including the real local Hub membership matrix
-- `site/DESIGN-NOTES.md`: visual identity, accessibility and animated 3D design rationale
+- `site/DESIGN-NOTES.md`: visual identity, accessibility and design rationale
 - `qa/check_site.py`: offline site and evidence-data integrity verifier
 - `EVIDENCE-MANIFEST.json`: complete allowlisted release file catalog with SHA-256 digests
 

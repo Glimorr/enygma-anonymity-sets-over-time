@@ -50,4 +50,10 @@ def main():
     print("DIGEST",digest)
     print("CLAIMS_SCOPE",m["claim_scope"])
 
-if __name__=="__main__":main()
+if __name__=="__main__":
+    if (ROOT/"site/public-anchor.json").is_file() and (ROOT/".git").exists():
+        import subprocess,sys
+        print("POST_RELEASE_CHECKOUT: verifying the frozen evidence and later public annex separately",flush=True)
+        subprocess.run([sys.executable,str(ROOT/"qa/verify_published_release.py"),"--manifest-only"],check=True)
+    else:
+        main()

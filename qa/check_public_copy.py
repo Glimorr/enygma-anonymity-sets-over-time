@@ -26,9 +26,11 @@ replacements=[
  ('aria-label="Illustrative 3D bank network, not experimental evidence"', 'aria-label="Illustration of seven bank participants and a private network hub; not transaction evidence"'),
  ("Five original diagrams, grounded in actual observations.", "Six original diagrams, grounded in actual observations."),
  ('<div class="code-head">VERIFICATION COMMANDS • FROM RESEARCH REPOSITORY ROOT</div>',
- '''<div class="code-head">VERIFICATION COMMANDS • FROZEN 93-FILE EVIDENCE ARCHIVE</div>
-<p class="description">Use the <a href="https://github.com/Glimorr/enygma-anonymity-sets-over-time/tree/5710488133292dfbe3ee1df3b731b198a5999031" target="_blank" rel="noopener">immutable research archive (Git revision 5710488)</a> for the commands below. Website improvements and the later public Testnet receipt are published separately and are intentionally not covered by the archived file manifest. In the latest public checkout, independently check that receipt with <code>python3 qa/check_anchor.py --live-rpc</code>.</p>'''),
+ '''<div class="code-head">VERIFY THE PUBLISHED RESEARCH</div>
+<p class="description">From a current Git checkout, one command checks the original <a href="https://github.com/Glimorr/enygma-anonymity-sets-over-time/tree/5710488133292dfbe3ee1df3b731b198a5999031" target="_blank" rel="noopener">93-file research archive (revision 5710488)</a>, the separately published website enhancements and the retrospective Rayls Public Testnet receipt. The original signed archive remains unchanged.</p>'''),
 
+ ('<pre><code>python3 qa/check_manifest.py\npython3 qa/verify_local_live.py --check-only\npython3 qa/verify_public.py\npython3 qa/adversarial_checks.py', '<pre><code>python3 qa/verify_published_release.py --live-rpc\n\n# Offline verification (no public-chain RPC required)\npython3 qa/verify_published_release.py\n\n# Optional direct checks\npython3 qa/verify_local_live.py --check-only\npython3 qa/verify_public.py\npython3 qa/adversarial_checks.py'),
+ ('--output analysis/recomputed_blind_predictions.json', '--output /tmp/recomputed-enygma-w2-predictions.json'),
 ]
 replacements.extend([
  ('<link rel="stylesheet" href="bank-lens.css"/>', '<link rel="stylesheet" href="bank-lens.css"/>\n<link rel="stylesheet" href="figure-viewer.css"/>'),

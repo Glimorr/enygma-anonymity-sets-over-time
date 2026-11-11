@@ -32,6 +32,7 @@ jobs:
           python3 qa/check_public_copy.py "$RUNNER_TEMP/frozen-research"
           ( cd "$RUNNER_TEMP/frozen-research" && python3 qa/check_manifest.py && python3 qa/verify_public.py && python3 qa/verify_local_live.py --check-only && python3 qa/check_site.py --check-only )
           python3 qa/check_anchor.py --live-rpc
+          python3 qa/verify_published_release.py --manifest-only
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
