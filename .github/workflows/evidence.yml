@@ -4,44 +4,46 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
   archived-evidence:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: '3.14'
-      - name: Temporarily separate retrospective anchor from frozen archive audit
+      - name: Mount the immutable 93-file research archive
         run: |
-          if test -f site/public-anchor.json; then
-            mv site/public-anchor.json "$RUNNER_TEMP/public-anchor.json"
-          fi
-      - name: Verify all manifest paths and digests
-        run: python3 qa/check_manifest.py
-      - name: Independently recompute all 5,000 archived observations
-        run: python3 qa/verify_public.py
-      - name: Independently decode local Hub receipts without live RPC
-        run: python3 qa/verify_local_live.py --check-only
-      - name: Verify site, six figures, live Hub data and accessible controls
-        run: python3 qa/check_site.py --check-only
-      - name: Test tamper, omission and corruption handling
-        run: python3 qa/adversarial_checks.py
-      - name: Verify integrity again after adversarial attempts
-        run: python3 qa/check_manifest.py
-      - name: Restore and independently verify retrospective public on-chain anchor
-        run: |
-          if test -f "$RUNNER_TEMP/public-anchor.json"; then
-            mv "$RUNNER_TEMP/public-anchor.json" site/public-anchor.json
-            python3 qa/check_anchor.py --live-rpc
-          fi
+          git worktree add --detach "$RUNNER_TEMP/frozen-research" 5710488133292dfbe3ee1df3b731b198a5999031
+          cmp EVIDENCE-MANIFEST.json "$RUNNER_TEMP/frozen-research/EVIDENCE-MANIFEST.json"
+          diff -qr site "$RUNNER_TEMP/frozen-research/site" --exclude=public-anchor.json
+      - name: Verify frozen manifest completeness and all content hashes
+        run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/check_manifest.py
+      - name: Reconstruct the 5000 source-level observations
+        run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/verify_public.py
+      - name: Independently decode saved Hub event receipts
+        run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/verify_local_live.py --check-only
+      - name: Check site, accessibility and observed bank-set provenance
+        run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/check_site.py --check-only
+      - name: Run six negative and tamper controls
+        run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/adversarial_checks.py
+      - name: Recheck frozen evidence after tamper controls
+        run: cd "$RUNNER_TEMP/frozen-research" && python3 qa/check_manifest.py
+      - name: Independently authenticate the retrospective public Testnet annex
+        run: python3 qa/check_anchor.py --live-rpc
 
   pinned-native-source:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: 5710488133292dfbe3ee1df3b731b198a5999031
       - uses: actions/setup-python@v6
         with:
           python-version: '3.14'
@@ -49,7 +51,7 @@ jobs:
         with:
           go-version: '1.26.x'
           cache: false
-      - name: Fetch and pin official Rayls revisions, apply declared patches
+      - name: Fetch pinned official Rayls revisions, apply declared patches
         run: python3 qa/bootstrap_sources.py
       - name: Verify archived native evidence and untouched relayer code
         run: python3 qa/verify_native.py
