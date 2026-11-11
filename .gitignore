@@ -1,0 +1,29 @@
+# Upstream checked-out projects and local builds are restored from pins.
+source/
+tools/
+release/
+live-seven/
+live-seven-local/
+live-seven-fixed/
+# Local chain snapshots and container logs can contain development credentials.
+evidence/live/
+evidence/offline-compose/live_seven_attempt.log
+# Never publish secrets or credentials.
+.env
+.env.*
+*.key
+secrets/
+*.pem
+*.keystore
+*.tmp
+# Browser testing and compiler caches.
+qa/cache/
+qa/edge-profile/
+qa/edge-preview-profile/
+qa/site-desktop-preview.png
+qa/site-preview.ps1
+__pycache__/
+*.pyc
+.DS_Store
+# Source-level SYNTHETIC ground truth is intentionally included in the
+# sanitized public release AFTER the local prediction seal.

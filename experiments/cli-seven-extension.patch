@@ -1,0 +1,82 @@
+diff --git a/cmd/init.go b/cmd/init.go
+index d79534f..6747e23 100644
+--- a/cmd/init.go
++++ b/cmd/init.go
+@@ -129,8 +129,8 @@ the public chain only. --with-hub adds the minimal Private Network Hub;
+ 		// demo with governance is what --full provides.
+ 		members := 1
+ 		if fullStack {
+-			if membersCount < 2 || membersCount > 6 {
+-				red.Println("Error: --members must be between 2 and 6")
++			if membersCount < 2 || membersCount > 7 {
++				red.Println("Error: --members must be between 2 and 7")
+ 				os.Exit(1)
+ 			}
+ 			members = membersCount
+@@ -138,15 +138,15 @@ the public chain only. --with-hub adds the minimal Private Network Hub;
+ 			switch {
+ 			case !noHub:
+ 				yellow.Println("Note: --members is ignored on hub-carrying lean stacks (single privacy node). Use --full for the multi-participant hub stack, or drop --with-hub / add --local for hub-less multi-participant.")
+-			case membersCount < 1 || membersCount > 6:
+-				red.Println("Error: --members must be between 1 and 6")
++			case membersCount < 1 || membersCount > 7:
++				red.Println("Error: --members must be between 1 and 7")
+ 				os.Exit(1)
+ 			default:
+ 				members = membersCount
+ 			}
+ 		}
+ 
+-		participants := []string{"a", "b", "c", "d", "e", "f"}[:members]
++		participants := []string{"a", "b", "c", "d", "e", "f", "g"}[:members]
+ 
+ 		// Blockscout: default-on for every participant in every mode (a bare
+ 		// init gets an explorer for node a). --blockscout narrows the set,
+@@ -174,7 +174,7 @@ func init() {
+ 	rootCmd.AddCommand(initCmd)
+ 	initCmd.Flags().BoolVar(&fullStack, "full", false, "Bring up the full multi-participant demo stack (Private Network Hub, governance, multiple privacy nodes). Combine with --members and/or --public-chain.")
+ 	initCmd.Flags().BoolVar(&withHub, "with-hub", false, "Include the Private Network Hub (PNH) in the default (lean) stack: PNH plus the private relayer and proofs-api (PN<->PNH messaging, Enygma). Hub-less is the default topology for both pulled-image and --local stacks; --full always includes the full hub (plus governance).")
+-	initCmd.Flags().IntVar(&membersCount, "members", 2, "Number of privacy node participants: 2-6 with --full, 1-6 for the hub-less default (default 1 there). Ignored on hub-carrying lean stacks.")
++	initCmd.Flags().IntVar(&membersCount, "members", 2, "Number of privacy node participants: 2-7 with --full, 1-7 for the hub-less default (default 1 there). Ignored on hub-carrying lean stacks.")
+ 	initCmd.Flags().StringVar(&publicChainPreset, "public-chain", "", "Public chain preset to bridge to: 'local' (an Axyl public chain inside the stack) or 'rayls-testnet'. Defaults: lean stacks get 'local' with --local and 'rayls-testnet' otherwise; --full --local gets 'local' (the 3.0.1 source deploy requires a public chain). Only --full with pulled images runs without one.")
+ 	initCmd.Flags().BoolVar(&privacyNodeOnly, "privacy-node-only", false, "Run just a single Axyl privacy node, with no bridge or surrounding services. Ignores other flags.")
+ 	initCmd.Flags().BoolVar(&monitoringEnabled, "monitoring", false, "Enable monitoring stack (Grafana, Loki, Tempo, Prometheus)")
+diff --git a/cmd/verify.go b/cmd/verify.go
+index 1d5a2a0..7d67a03 100644
+--- a/cmd/verify.go
++++ b/cmd/verify.go
+@@ -56,7 +56,7 @@ Examples:
+ 			participant := strings.ToLower(strings.TrimSpace(args[1]))
+ 
+ 			// Validate participant identifier
+-			validParticipants := []string{"a", "b", "c", "d", "e", "f"}
++			validParticipants := []string{"a", "b", "c", "d", "e", "f", "g"}
+ 			isValid := false
+ 			for _, valid := range validParticipants {
+ 				if participant == valid {
+@@ -90,7 +90,7 @@ Examples:
+ 			participant := strings.ToLower(strings.TrimSpace(args[1]))
+ 
+ 			// Validate participant identifier
+-			validParticipants := []string{"a", "b", "c", "d", "e", "f"}
++			validParticipants := []string{"a", "b", "c", "d", "e", "f", "g"}
+ 			isValid := false
+ 			for _, valid := range validParticipants {
+ 				if participant == valid {
+diff --git a/internal/docker/docker_config.go b/internal/docker/docker_config.go
+index c748680..9c155e9 100644
+--- a/internal/docker/docker_config.go
++++ b/internal/docker/docker_config.go
+@@ -964,6 +964,12 @@ func getContractsService(participants []string, local bool, pc *PublicChain, lea
+ 	// attach and silently depended on a rayls-contracts:latest image left
+ 	// behind by an earlier lean/hub-less build.
+ 	attachBuild(svc, srcs, "contracts", "contracts")
++	// W2 research-only: official contracts Hardhat config defines localA through
++	// localF, so mount a source-pinned localG extension when N > 6.
++	if len(participants) > 6 {
++		svc.Volumes = append(svc.Volumes,
++			"../experiments/hardhat.config.seven.ts:/parfin/rayls-privacy-contracts/hardhat.config.ts:ro")
++	}
+ 	return svc
+ }
+ 

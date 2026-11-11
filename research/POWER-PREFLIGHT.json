@@ -1,0 +1,68 @@
+{
+  "evidence_type": "THEORETICAL_PREEXPERIMENT",
+  "formula": "q=(k-2)/(N-2), appearance_i=q+(1-q)*r_i",
+  "hoeffding_bound": "P(any rival outranks favored) <= (N-2)*exp(-n*gap^2/2)",
+  "results": [
+    {
+      "appearance_probability_gap": 0.0,
+      "conservative_hoeffding_95pct_samples": null,
+      "favored_appearance_probability": 1.0,
+      "favored_receiver_share": 0.6,
+      "k": 6,
+      "other_appearance_probability": 1.0,
+      "participants": 6,
+      "planned_sample_count_meets_conservative_bound": false,
+      "planned_samples": 500,
+      "uniform_padding_decoy_rate": 1.0
+    },
+    {
+      "appearance_probability_gap": 0.104,
+      "conservative_hoeffding_95pct_samples": 852,
+      "favored_appearance_probability": 0.92,
+      "favored_receiver_share": 0.6,
+      "k": 6,
+      "other_appearance_probability": 0.816,
+      "participants": 7,
+      "planned_sample_count_meets_conservative_bound": false,
+      "planned_samples": 500,
+      "uniform_padding_decoy_rate": 0.8
+    },
+    {
+      "appearance_probability_gap": 0.177778,
+      "conservative_hoeffding_95pct_samples": 303,
+      "favored_appearance_probability": 0.866667,
+      "favored_receiver_share": 0.6,
+      "k": 6,
+      "other_appearance_probability": 0.688889,
+      "participants": 8,
+      "planned_sample_count_meets_conservative_bound": true,
+      "planned_samples": 500,
+      "uniform_padding_decoy_rate": 0.666667
+    },
+    {
+      "appearance_probability_gap": 0.275,
+      "conservative_hoeffding_95pct_samples": 135,
+      "favored_appearance_probability": 0.8,
+      "favored_receiver_share": 0.6,
+      "k": 6,
+      "other_appearance_probability": 0.525,
+      "participants": 10,
+      "planned_sample_count_meets_conservative_bound": true,
+      "planned_samples": 500,
+      "uniform_padding_decoy_rate": 0.5
+    },
+    {
+      "appearance_probability_gap": 0.449383,
+      "conservative_hoeffding_95pct_samples": 59,
+      "favored_appearance_probability": 0.688889,
+      "favored_receiver_share": 0.6,
+      "k": 6,
+      "other_appearance_probability": 0.239506,
+      "participants": 20,
+      "planned_sample_count_meets_conservative_bound": true,
+      "planned_samples": 500,
+      "uniform_padding_decoy_rate": 0.222222
+    }
+  ],
+  "warning": "Conservative sufficient bound, not a calibrated power estimate; multi-destination and zero-only traffic are excluded."
+}

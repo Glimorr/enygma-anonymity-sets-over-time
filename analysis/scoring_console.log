@@ -1,0 +1,13 @@
+GROUND_TRUTH_SCORING_COMPLETE
+A_N6_balanced: preferred=None prediction=1002 match=None null_rejected=False
+B_N7_preferred: preferred=1007 prediction=1007 match=True null_rejected=True
+C_N8_balanced: preferred=None prediction=1005 match=None null_rejected=False
+D_N8_preferred: preferred=1005 prediction=1005 match=True null_rejected=True
+E_N8_positive: preferred=1002 prediction=1002 match=True null_rejected=True
+F_N8_mixedzero: preferred=1008 prediction=1008 match=True null_rejected=True
+G_N8_multireceiver: preferred=1008 prediction=1008 match=True null_rejected=True
+H_N10_preferred: preferred=1002 prediction=1002 match=True null_rejected=True
+I_N20_preferred: preferred=1012 prediction=1012 match=True null_rejected=True
+J_N8_zeroonly: preferred=None prediction=1004 match=None null_rejected=False
+PREDICTION_COMMITMENT_VERIFIED
+PUBLIC_PRIVATE_ROW_RECONCILIATION_PASS

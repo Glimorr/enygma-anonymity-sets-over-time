@@ -1,0 +1,478 @@
+{
+  "all_public_rows_matched_to_truth": true,
+  "evidence_class": "NATIVE_SOURCE_FUNCTION_SYNTHETIC_TRAFFIC_OFFLINE_SCORING",
+  "observer_sha256": "c92edd064396841a31a8fc82387eec9aa3addf8b891738b5386b691814bcf7ff",
+  "outcomes": {
+    "A_N6_balanced": {
+      "balanced_null_rejected": false,
+      "genuine_receiver_inclusions": 500,
+      "known_preferred_receiver": null,
+      "prediction_at_500": 1002,
+      "prediction_matches_preferred_at_500": null,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1002
+        },
+        "200": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1002
+        },
+        "25": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1002
+        },
+        "50": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1002
+        },
+        "500": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1002
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 500
+      },
+      "true_receiver_counts": {
+        "1002": 88,
+        "1003": 101,
+        "1004": 90,
+        "1005": 113,
+        "1006": 108
+      }
+    },
+    "B_N7_preferred": {
+      "balanced_null_rejected": true,
+      "genuine_receiver_inclusions": 500,
+      "known_preferred_receiver": 1007,
+      "prediction_at_500": 1007,
+      "prediction_matches_preferred_at_500": true,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1007
+        },
+        "200": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1007
+        },
+        "25": {
+          "matches_preferred": false,
+          "predicted_signal": false,
+          "predicted_top": 1004
+        },
+        "50": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1007
+        },
+        "500": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1007
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 500
+      },
+      "true_receiver_counts": {
+        "1002": 36,
+        "1003": 37,
+        "1004": 41,
+        "1005": 40,
+        "1006": 39,
+        "1007": 307
+      }
+    },
+    "C_N8_balanced": {
+      "balanced_null_rejected": false,
+      "genuine_receiver_inclusions": 500,
+      "known_preferred_receiver": null,
+      "prediction_at_500": 1005,
+      "prediction_matches_preferred_at_500": null,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1008
+        },
+        "200": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1007
+        },
+        "25": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1008
+        },
+        "50": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1008
+        },
+        "500": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1005
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 500
+      },
+      "true_receiver_counts": {
+        "1002": 73,
+        "1003": 76,
+        "1004": 71,
+        "1005": 76,
+        "1006": 72,
+        "1007": 63,
+        "1008": 69
+      }
+    },
+    "D_N8_preferred": {
+      "balanced_null_rejected": true,
+      "genuine_receiver_inclusions": 500,
+      "known_preferred_receiver": 1005,
+      "prediction_at_500": 1005,
+      "prediction_matches_preferred_at_500": true,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1005
+        },
+        "200": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1005
+        },
+        "25": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1005
+        },
+        "50": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1005
+        },
+        "500": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1005
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 500
+      },
+      "true_receiver_counts": {
+        "1002": 39,
+        "1003": 35,
+        "1004": 37,
+        "1005": 298,
+        "1006": 25,
+        "1007": 33,
+        "1008": 33
+      }
+    },
+    "E_N8_positive": {
+      "balanced_null_rejected": true,
+      "genuine_receiver_inclusions": 500,
+      "known_preferred_receiver": 1002,
+      "prediction_at_500": 1002,
+      "prediction_matches_preferred_at_500": true,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        },
+        "200": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        },
+        "25": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        },
+        "50": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        },
+        "500": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 500
+      },
+      "true_receiver_counts": {
+        "1002": 500
+      }
+    },
+    "F_N8_mixedzero": {
+      "balanced_null_rejected": true,
+      "genuine_receiver_inclusions": 379,
+      "known_preferred_receiver": 1008,
+      "prediction_at_500": 1008,
+      "prediction_matches_preferred_at_500": true,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1008
+        },
+        "200": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1008
+        },
+        "25": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1008
+        },
+        "50": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1008
+        },
+        "500": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1008
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 379,
+        "zero_only": 121
+      },
+      "true_receiver_counts": {
+        "1002": 21,
+        "1003": 24,
+        "1004": 22,
+        "1005": 20,
+        "1006": 31,
+        "1007": 24,
+        "1008": 237
+      }
+    },
+    "G_N8_multireceiver": {
+      "balanced_null_rejected": true,
+      "genuine_receiver_inclusions": 1000,
+      "known_preferred_receiver": 1008,
+      "prediction_at_500": 1008,
+      "prediction_matches_preferred_at_500": true,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1008
+        },
+        "200": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1008
+        },
+        "25": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1008
+        },
+        "50": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1008
+        },
+        "500": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1008
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "multi_receiver": 500
+      },
+      "true_receiver_counts": {
+        "1002": 109,
+        "1003": 121,
+        "1004": 106,
+        "1005": 108,
+        "1006": 116,
+        "1007": 116,
+        "1008": 324
+      }
+    },
+    "H_N10_preferred": {
+      "balanced_null_rejected": true,
+      "genuine_receiver_inclusions": 500,
+      "known_preferred_receiver": 1002,
+      "prediction_at_500": 1002,
+      "prediction_matches_preferred_at_500": true,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        },
+        "200": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        },
+        "25": {
+          "matches_preferred": true,
+          "predicted_signal": false,
+          "predicted_top": 1002
+        },
+        "50": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        },
+        "500": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1002
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 500
+      },
+      "true_receiver_counts": {
+        "1002": 311,
+        "1003": 23,
+        "1004": 25,
+        "1005": 27,
+        "1006": 21,
+        "1007": 23,
+        "1008": 27,
+        "1009": 24,
+        "1010": 19
+      }
+    },
+    "I_N20_preferred": {
+      "balanced_null_rejected": true,
+      "genuine_receiver_inclusions": 500,
+      "known_preferred_receiver": 1012,
+      "prediction_at_500": 1012,
+      "prediction_matches_preferred_at_500": true,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1012
+        },
+        "200": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1012
+        },
+        "25": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1012
+        },
+        "50": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1012
+        },
+        "500": {
+          "matches_preferred": true,
+          "predicted_signal": true,
+          "predicted_top": 1012
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "payment": 500
+      },
+      "true_receiver_counts": {
+        "1002": 10,
+        "1003": 12,
+        "1004": 12,
+        "1005": 11,
+        "1006": 11,
+        "1007": 9,
+        "1008": 10,
+        "1009": 14,
+        "1010": 23,
+        "1011": 10,
+        "1012": 295,
+        "1013": 5,
+        "1014": 12,
+        "1015": 7,
+        "1016": 11,
+        "1017": 10,
+        "1018": 13,
+        "1019": 14,
+        "1020": 11
+      }
+    },
+    "J_N8_zeroonly": {
+      "balanced_null_rejected": false,
+      "genuine_receiver_inclusions": 0,
+      "known_preferred_receiver": null,
+      "prediction_at_500": 1004,
+      "prediction_matches_preferred_at_500": null,
+      "prefix_comparisons": {
+        "100": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1003
+        },
+        "200": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1008
+        },
+        "25": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1003
+        },
+        "50": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1003
+        },
+        "500": {
+          "matches_preferred": null,
+          "predicted_signal": false,
+          "predicted_top": 1004
+        }
+      },
+      "total_observations": 500,
+      "traffic_kinds": {
+        "zero_only": 500
+      },
+      "true_receiver_counts": {}
+    }
+  },
+  "prediction_commitment_sha256": "332048de3c1c4e9db83c71d6f8a9e8c239d083b6d22d0c2c3e59ec58d494247f",
+  "total_observations": 5000,
+  "truth_sha256": "eaed525ba06f122e2b8bbeb252e46cec181f495629cf07b5649fb0b2fd60a7c9"
+}

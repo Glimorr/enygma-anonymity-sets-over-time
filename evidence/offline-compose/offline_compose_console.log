@@ -1,0 +1,5 @@
+=== RUN   TestW2SevenOfflineCompose
+W2_OFFLINE_COMPOSE_SEVEN_PASS services=38 member_count=7 no_deployment=true
+--- PASS: TestW2SevenOfflineCompose (0.00s)
+PASS
+ok  	github.com/raylsnetwork/rayls-sovereign-cli/internal/docker	0.007s

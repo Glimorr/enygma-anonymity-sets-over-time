@@ -1,0 +1,105 @@
+{
+  "classification": "LOCAL_RESEARCHER_CONTROLLED_LEDGER_EVIDENCE_NOT_THIRD_PARTY_CONSENSUS",
+  "verified_at_utc": "2026-11-11T11:38:20.484260+00:00",
+  "live_rpc_reconciliation": true,
+  "source_successful_receipts": 8,
+  "hub_successful_receipts": 7,
+  "hub_enygma_batches_with_six_members": 6,
+  "hub_enygma_transfer_envelopes": 36,
+  "abi_signature": "EnygmaTransfer(bytes32,bytes,uint256,uint256,uint256[],uint256[],uint256)",
+  "abi_event_topic0_from_actual_logs": "0x2b925a0de145bd51c571f8da5994d78f6cce29dc9f967e20a425139699375683",
+  "observed_batches": [
+    {
+      "tx_hash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+      "block": 4977,
+      "members": [
+        12345,
+        12346,
+        12347,
+        12348,
+        12349,
+        12351
+      ],
+      "envelopes": 6
+    },
+    {
+      "tx_hash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+      "block": 5016,
+      "members": [
+        12345,
+        12346,
+        12347,
+        12348,
+        12349,
+        12351
+      ],
+      "envelopes": 6
+    },
+    {
+      "tx_hash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+      "block": 5035,
+      "members": [
+        12345,
+        12346,
+        12347,
+        12348,
+        12349,
+        12350
+      ],
+      "envelopes": 6
+    },
+    {
+      "tx_hash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+      "block": 5039,
+      "members": [
+        12345,
+        12346,
+        12347,
+        12348,
+        12350,
+        12351
+      ],
+      "envelopes": 6
+    },
+    {
+      "tx_hash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+      "block": 5056,
+      "members": [
+        12345,
+        12347,
+        12348,
+        12349,
+        12350,
+        12351
+      ],
+      "envelopes": 6
+    },
+    {
+      "tx_hash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+      "block": 5060,
+      "members": [
+        12345,
+        12346,
+        12347,
+        12349,
+        12350,
+        12351
+      ],
+      "envelopes": 6
+    }
+  ],
+  "fresh_receipts_compared_to_live_rpc": 15,
+  "settlement": {
+    "A_to_B": "SETTLED_AND_BALANCE_RECONCILED",
+    "A_to_G": "SETTLED_AFTER_PRE_REGISTERED_TIMEOUT_WITHOUT_NEW_SOURCE_TRANSACTION",
+    "source_balance_after_two_payments": "4998",
+    "known_B_balance": "1",
+    "G_balance": "1",
+    "late_recovery": "Bank G mapping and balance appeared after correcting the CTS server certificate and allowing replay-free relayer catch-up",
+    "initial_deadline_outcome": "FAIL_TIMEOUT",
+    "final_reconciliation": "PASS_5000_OF_5000",
+    "unreconciled_units": "0"
+  },
+  "what_this_proves": "Local Hub emitted queryable six-member sets for a researcher-controlled seven-bank stack; both A-to-B and A-to-G eventually settled, with G initially timing out.",
+  "what_this_does_not_prove": "On-time G settlement, a longitudinal attack on a real institution, independent outside consensus or a Rayls Public Testnet commitment."
+}

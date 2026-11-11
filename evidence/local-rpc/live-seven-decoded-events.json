@@ -1,0 +1,3400 @@
+{
+  "scope": "LOCAL_RESEARCHER_CONTROLLED_CHAINS",
+  "generatedAt": "2026-11-11T11:29:34.484Z",
+  "tokenSymbol": "RQ2N2",
+  "transactions": {
+    "deploy": {
+      "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "AuthorityUpdated",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "args": [
+            {
+              "name": "oldAuthority",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "name": "newAuthority",
+              "value": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e"
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x8edb51102c468e6b1e099e8298c7bd09b83314acb26db8cf8457d6bb57804b96"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "topic0": "0x07c54e4e8f451da0b5da0982df73f3bd4e908907e69fe590a0bf6512cd02b5f7"
+        },
+        {
+          "event": "Initialized",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0xc707ef6861f07c67cae8bacbdf2884d58d29a2fa6aa3bb391f271fe42fb4b543",
+          "blockNumber": 7369,
+          "args": [
+            {
+              "name": "version",
+              "value": "18446744073709551615"
+            }
+          ]
+        }
+      ]
+    },
+    "register": {
+      "txHash": "0xe9da70f0a580f75d323428c2e1932c550fcdb5d0b967d0e3b3928b1104982df2",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x9d4454B023096f34B160D6B654540c56A1F81688",
+          "txHash": "0xe9da70f0a580f75d323428c2e1932c550fcdb5d0b967d0e3b3928b1104982df2",
+          "blockNumber": 7527,
+          "topic0": "0x063765b272ccfe8c5b747b73e618a2d710b3796d89b51946c128404ca6c85cc8"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x9d4454B023096f34B160D6B654540c56A1F81688",
+          "txHash": "0xe9da70f0a580f75d323428c2e1932c550fcdb5d0b967d0e3b3928b1104982df2",
+          "blockNumber": 7527,
+          "topic0": "0x962ec3691afeb0804244549c8e163d9e4a89f507a6ed4a8a87c6fbca721699d2"
+        }
+      ]
+    },
+    "authorize": {
+      "txHash": "0x44a063d3fa8ead565dfe9c19d4c0f9c6fb9e44ad2c72ff099c6cfa8b42047bce",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x9d4454B023096f34B160D6B654540c56A1F81688",
+          "txHash": "0x44a063d3fa8ead565dfe9c19d4c0f9c6fb9e44ad2c72ff099c6cfa8b42047bce",
+          "blockNumber": 8252,
+          "topic0": "0x962ec3691afeb0804244549c8e163d9e4a89f507a6ed4a8a87c6fbca721699d2"
+        }
+      ]
+    },
+    "submitHub": {
+      "txHash": "0x434f03153bf9385238c9957a467279430bc52e38c0d2d0603d238e5eafc60468",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "MessageDispatched",
+          "artifact": "EndpointV1",
+          "emitter": "0x4A679253410272dd5232B3Ff7cF5dbB88f295319",
+          "txHash": "0x434f03153bf9385238c9957a467279430bc52e38c0d2d0603d238e5eafc60468",
+          "blockNumber": 8283,
+          "args": [
+            {
+              "name": "messageId",
+              "value": "0xaa3b2a7114d8605439fe951a12bfa02aca666e585296774f89bb197a84ac5c5f"
+            },
+            {
+              "name": "from",
+              "value": "0x9d4454B023096f34B160D6B654540c56A1F81688"
+            },
+            {
+              "name": "toChainId",
+              "value": "1337"
+            },
+            {
+              "name": "to",
+              "value": "0xc0F115A19107322cFBf1cDBC7ea011C19EbDB4F8"
+            },
+            {
+              "name": "data",
+              "value": [
+                [
+                  true,
+                  "3",
+                  [
+                    false,
+                    "0",
+                    "0x",
+                    "0",
+                    "0x"
+                  ],
+                  "0x0000000000000000000000000000000000000000000000000000000000000000",
+                  "0x",
+                  "0x",
+                  "0x",
+                  [
+                    "0",
+                    "0",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0"
+                  ],
+                  true
+                ],
+                {
+                  "bytes": 20612,
+                  "sha256": "e5a9661c6af4bf2a1a69b66ac37a3102894e2d1407632729ffda3142db026b93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x9d4454B023096f34B160D6B654540c56A1F81688",
+          "txHash": "0x434f03153bf9385238c9957a467279430bc52e38c0d2d0603d238e5eafc60468",
+          "blockNumber": 8283,
+          "topic0": "0x4f5d530726e69549f324811acc2350417dba052ef6a08d05f84ac97d4924bc66"
+        }
+      ]
+    },
+    "approve": {
+      "txHash": "0xba11a4b65837480872eab8068808d1162dfe52008035ffea745eb93e37e58192",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x34B40BA116d5Dec75548a9e9A8f15411461E8c70",
+          "txHash": "0xba11a4b65837480872eab8068808d1162dfe52008035ffea745eb93e37e58192",
+          "blockNumber": 4963,
+          "topic0": "0x1394170a3706b92cbd694c5455042c6aa429a67adde17453e770b81a3cbcb3e4"
+        },
+        {
+          "event": "MessageDispatched",
+          "artifact": "EndpointV1",
+          "emitter": "0xc6e7DF5E7b4f2A278906862b61205850344D4e7d",
+          "txHash": "0xba11a4b65837480872eab8068808d1162dfe52008035ffea745eb93e37e58192",
+          "blockNumber": 4963,
+          "args": [
+            {
+              "name": "messageId",
+              "value": "0xc8404e34da194d34cfdd4c213b573d0aa32ed05e9280a1919afb0c7ba2d5ff63"
+            },
+            {
+              "name": "from",
+              "value": "0x34B40BA116d5Dec75548a9e9A8f15411461E8c70"
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            },
+            {
+              "name": "to",
+              "value": "0x8f86403A4DE0BB5791fa46B8e795C547942fE4Cf"
+            },
+            {
+              "name": "data",
+              "value": [
+                [
+                  true,
+                  "3",
+                  [
+                    false,
+                    "0",
+                    "0x",
+                    "0",
+                    "0x"
+                  ],
+                  "0x0000000000000000000000000000000000000000000000000000000000000000",
+                  "0x",
+                  "0x",
+                  "0x",
+                  [
+                    "0",
+                    "0",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0"
+                  ],
+                  true
+                ],
+                {
+                  "bytes": 100,
+                  "sha256": "62f13ce9cf73520f4ce821d954d2eed5e06b2102da5c448f45fd6bd94077947c"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mint": {
+      "txHash": "0xc76660b8c56cb14cc244920ffc7e94a114d2ef9d98f582612f5ce900369d4667",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "Transfer",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0xc76660b8c56cb14cc244920ffc7e94a114d2ef9d98f582612f5ce900369d4667",
+          "blockNumber": 8395,
+          "args": [
+            {
+              "name": "from",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "name": "to",
+              "value": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+            },
+            {
+              "name": "value",
+              "value": "5000"
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x4c5859f0F772848b2D91F1D83E2Fe57935348029",
+          "txHash": "0xc76660b8c56cb14cc244920ffc7e94a114d2ef9d98f582612f5ce900369d4667",
+          "blockNumber": 8395,
+          "topic0": "0xd757181b1dd1e2639c416dbb54f82e264b70edf0903b198df93fab075771da40"
+        }
+      ]
+    },
+    "sendB": {
+      "txHash": "0xd686004d0c98aa970d32dfced21b0b9b3a8482d189862b33f0350d7a7b44771d",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "Transfer",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0xd686004d0c98aa970d32dfced21b0b9b3a8482d189862b33f0350d7a7b44771d",
+          "blockNumber": 8432,
+          "args": [
+            {
+              "name": "from",
+              "value": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+            },
+            {
+              "name": "to",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "name": "value",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x4c5859f0F772848b2D91F1D83E2Fe57935348029",
+          "txHash": "0xd686004d0c98aa970d32dfced21b0b9b3a8482d189862b33f0350d7a7b44771d",
+          "blockNumber": 8432,
+          "topic0": "0x2ec9ad4f20033b3f239ff38f84f08388760bdc8bb2613ab2d8289c8775b82ea3"
+        },
+        {
+          "event": "transactionReferenceId",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0xd686004d0c98aa970d32dfced21b0b9b3a8482d189862b33f0350d7a7b44771d",
+          "blockNumber": 8432,
+          "args": [
+            {
+              "name": "_referenceId",
+              "value": "0xfd36b564e9c8a6d088713d05214f035b4cc6c2b97c0535daa0a0fdce0dd3736d"
+            }
+          ]
+        },
+        {
+          "event": "crossTransferReferenceId",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0xd686004d0c98aa970d32dfced21b0b9b3a8482d189862b33f0350d7a7b44771d",
+          "blockNumber": 8432,
+          "args": [
+            {
+              "name": "_referenceId",
+              "value": "0xfd36b564e9c8a6d088713d05214f035b4cc6c2b97c0535daa0a0fdce0dd3736d"
+            }
+          ]
+        }
+      ]
+    },
+    "sendG": {
+      "txHash": "0x96a98deee0d9881b26ded2b570c7f299bf657900b56350454e4bccad8dd4817c",
+      "receiptStatus": 1,
+      "logs": [
+        {
+          "event": "Transfer",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0x96a98deee0d9881b26ded2b570c7f299bf657900b56350454e4bccad8dd4817c",
+          "blockNumber": 8465,
+          "args": [
+            {
+              "name": "from",
+              "value": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+            },
+            {
+              "name": "to",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "name": "value",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x4c5859f0F772848b2D91F1D83E2Fe57935348029",
+          "txHash": "0x96a98deee0d9881b26ded2b570c7f299bf657900b56350454e4bccad8dd4817c",
+          "blockNumber": 8465,
+          "topic0": "0x2ec9ad4f20033b3f239ff38f84f08388760bdc8bb2613ab2d8289c8775b82ea3"
+        },
+        {
+          "event": "transactionReferenceId",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0x96a98deee0d9881b26ded2b570c7f299bf657900b56350454e4bccad8dd4817c",
+          "blockNumber": 8465,
+          "args": [
+            {
+              "name": "_referenceId",
+              "value": "0xeeccf5ea0df961d94e7a7c0169545c1c25b2174f874c0bbb53c693f94438c0a2"
+            }
+          ]
+        },
+        {
+          "event": "crossTransferReferenceId",
+          "artifact": "EnygmaTokenExample",
+          "emitter": "0xaB7B4c595d3cE8C85e16DA86630f2fc223B05057",
+          "txHash": "0x96a98deee0d9881b26ded2b570c7f299bf657900b56350454e4bccad8dd4817c",
+          "blockNumber": 8465,
+          "args": [
+            {
+              "name": "_referenceId",
+              "value": "0xeeccf5ea0df961d94e7a7c0169545c1c25b2174f874c0bbb53c693f94438c0a2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hub": [
+    {
+      "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+      "receiptStatus": 1,
+      "blockNumber": 4945,
+      "logs": [
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x132ed6dc8f3ad0a2622797dd549e9ce93930e97a46ef2d6eb22d869ffdbbb16a"
+        },
+        {
+          "event": "AuthorityUpdated",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xb4dC171C0edEc8C0032cd0f2d30921c09FA35e34",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "oldAuthority",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "name": "newAuthority",
+              "value": "0x0165878A594ca255338adfa4d48449f69242Eb8F"
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x858dcc343ec01ddecf10dcc66e22e9f94aba129db1c5b9f7ef55e9bbeb8ed1ed"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x8edb51102c468e6b1e099e8298c7bd09b83314acb26db8cf8457d6bb57804b96"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x07c54e4e8f451da0b5da0982df73f3bd4e908907e69fe590a0bf6512cd02b5f7"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x132ed6dc8f3ad0a2622797dd549e9ce93930e97a46ef2d6eb22d869ffdbbb16a"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x132ed6dc8f3ad0a2622797dd549e9ce93930e97a46ef2d6eb22d869ffdbbb16a"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x6F6f570F45833E249e27022648a26F4076F48f78",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x68c771c05d01f5c53189e3a23bc1fac5a3453efcd0992bddf8f390b581c2389c"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x851356ae760d987E095750cCeb3bC6014560891C",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x89ee7c9f834719914c9fbc4e5992563a409e939e7e6796eabfdf586954047480"
+        },
+        {
+          "event": "VerifierRegistered",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "verifierAddress",
+              "value": "0x5081a39b8A5f0E35a8D959395a630b68B74Dd30f"
+            },
+            {
+              "name": "k",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "event": "VerifierRegistered",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "verifierAddress",
+              "value": "0x04C89607413713Ec9775E14b954286519d836FEf"
+            },
+            {
+              "name": "k",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "event": "VerifierRegistered",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "verifierAddress",
+              "value": "0x2E2Ed0Cfd3AD2f1d34481277b3204d807Ca2F8c2"
+            },
+            {
+              "name": "k",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "event": "VerifierRegistered",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "verifierAddress",
+              "value": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+            },
+            {
+              "name": "k",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "event": "VerifierRegistered",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "verifierAddress",
+              "value": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726"
+            },
+            {
+              "name": "k",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x90bf83a5393fae16f25bdee6a57fd4fe5cf4f11c94018118f9b0faf439a9a9f7"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x90bf83a5393fae16f25bdee6a57fd4fe5cf4f11c94018118f9b0faf439a9a9f7"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x90bf83a5393fae16f25bdee6a57fd4fe5cf4f11c94018118f9b0faf439a9a9f7"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x90bf83a5393fae16f25bdee6a57fd4fe5cf4f11c94018118f9b0faf439a9a9f7"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x90bf83a5393fae16f25bdee6a57fd4fe5cf4f11c94018118f9b0faf439a9a9f7"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x5abfd12c330e3c44221f811f765f2b5d367a4401414b4aed3f7d9540ba168988"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x5abfd12c330e3c44221f811f765f2b5d367a4401414b4aed3f7d9540ba168988"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x5abfd12c330e3c44221f811f765f2b5d367a4401414b4aed3f7d9540ba168988"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x5abfd12c330e3c44221f811f765f2b5d367a4401414b4aed3f7d9540ba168988"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x5abfd12c330e3c44221f811f765f2b5d367a4401414b4aed3f7d9540ba168988"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x8edb51102c468e6b1e099e8298c7bd09b83314acb26db8cf8457d6bb57804b96"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x1429859428C0aBc9C2C47C8Ee9FBaf82cFA0F20f",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0xbd1280d6907c94711b3ea1a503709d477e5728e5a44fd3a6c59f5978ed157c9e"
+        },
+        {
+          "event": "ResourceIdRegistered",
+          "artifact": "EndpointV1",
+          "emitter": "0x59b670e9fA9D0A427751Af201D676719a970857b",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "implementationAddress",
+              "value": "0x9467A509DA43CB50EB332187602534991Be1fEa4"
+            }
+          ]
+        },
+        {
+          "event": "ResourceIdRegistered",
+          "artifact": "EndpointV1",
+          "emitter": "0xc6e7DF5E7b4f2A278906862b61205850344D4e7d",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "implementationAddress",
+              "value": "0x9467A509DA43CB50EB332187602534991Be1fEa4"
+            }
+          ]
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0xc96304e3c037f81dA488ed9dEa1D8F2a48278a75",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x74d31871242a42afa34ddbdcd2089ee9700aa8499e2662f830955d4b457aaf30"
+        },
+        {
+          "event": "UNKNOWN",
+          "emitter": "0x67d269191c92Caf3cD7723F116c85e6E9bf55933",
+          "txHash": "0x341bf61caf6c1a3cb98755e8b45133d9b618992839c66e6f0ee49aa2613653b7",
+          "blockNumber": 4945,
+          "topic0": "0x00769f3f82cb2a521c5b72f211aff687dae3cebd0b4631790417d1b17e15689a"
+        }
+      ]
+    },
+    {
+      "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+      "receiptStatus": 1,
+      "blockNumber": 4977,
+      "logs": [
+        {
+          "event": "NullifierConsumed",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "nullifier",
+              "value": "3758651603662778578121285929695423740623224907247013122706119767967681504882"
+            },
+            {
+              "name": "blockNumber",
+              "value": "4970"
+            },
+            {
+              "name": "txType",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "838be36a556d813c80fed1cb1df24f7d5481a32c3420a950361a8ae04e391cdc"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1251705236659289985496927706805173956677412051951949103804477278811819639404"
+            },
+            {
+              "name": "blockNumber",
+              "value": "4970"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1782168949591206068650885229502282668493338281636912158573942494565283615699",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "86f37597a2bf95a82d61714e1df4b8bd4347d8b1af0b5ea12fa66f93044d8613"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1265895853630291550645832029775416775453538852871165399572868582444239392251"
+            },
+            {
+              "name": "blockNumber",
+              "value": "4970"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1782168949591206068650885229502282668493338281636912158573942494565283615699",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12346"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "9e66a9f535a2cba2dd39ee44a1513fdd83e6633d05c8ab7f32aef523d4aa6da9"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "38811244056407129192157661822204576130066908277754211376323114272635448561"
+            },
+            {
+              "name": "blockNumber",
+              "value": "4970"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1782168949591206068650885229502282668493338281636912158573942494565283615699",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12347"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "044ad3913b69273a9fc165ebe3e0682fb89f686aebfc2fb4671e23ecfc507029"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "104947800114963704412403539918423728551105948539971605924013404152718996814"
+            },
+            {
+              "name": "blockNumber",
+              "value": "4970"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1782168949591206068650885229502282668493338281636912158573942494565283615699",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12348"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "b7a0d4b1326adff1ac039b4915d3e72735fb1adafa6d85f1d96e5f62bd743a6d"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "254047831347691687406583706667624716915403805405022307638603554415536753805"
+            },
+            {
+              "name": "blockNumber",
+              "value": "4970"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1782168949591206068650885229502282668493338281636912158573942494565283615699",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12349"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "80ad3b22fca16d42b4c3c7e8479477a39a40a8e0ad4cf25a637c5088ce283470"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2327056421128262123713112319330806541555194126619644991248006697783840835780"
+            },
+            {
+              "name": "blockNumber",
+              "value": "4970"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1782168949591206068650885229502282668493338281636912158573942494565283615699",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12351"
+            }
+          ]
+        },
+        {
+          "event": "TransactionSuccessful",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xa0d44162f4a900a1236b0099f91a2a1d733e073410ef394397bb6051bcddc1c0",
+          "blockNumber": 4977,
+          "args": [
+            {
+              "name": "senderAddress",
+              "value": "0x5BCB93ceCd4A3c2831b7F6F537132bCC844Da04D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+      "receiptStatus": 1,
+      "blockNumber": 5016,
+      "logs": [
+        {
+          "event": "SupplyMinted",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "lastblockNum",
+              "value": "4970"
+            },
+            {
+              "name": "amount",
+              "value": "5000"
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            }
+          ]
+        },
+        {
+          "event": "BalancesFinalized",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "finalizedBlockNumber",
+              "value": "5010"
+            },
+            {
+              "name": "pendingBlockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "balances",
+              "value": [
+                [
+                  "0",
+                  "1",
+                  "12350"
+                ],
+                [
+                  "6188667718119731849368396543362688385229211262887025161501592193566388016271",
+                  "13080007234430699124164539418194663609676303368488741816222793909146659033606",
+                  "12349"
+                ],
+                [
+                  "13262131649692782701697798674036960236355993244806552844016756840035790064812",
+                  "9893317704865076443953428203911114090268998096621470256902545970311232351232",
+                  "12347"
+                ],
+                [
+                  "20263154115158234015170785887146349078221497156302419055047117798061077537489",
+                  "13370158631634849752292092218224367207314998308492592356726942242839107459590",
+                  "12345"
+                ],
+                [
+                  "14510170991545484080373419306854764040647583027002523198057410708183681142203",
+                  "17221897912353065897058633484375175767202796565640117277582858799533581529917",
+                  "12346"
+                ],
+                [
+                  "5927766111984465024293604704633326641728510565850352082177710253811586341933",
+                  "8678370789733397177127169237244165028265017363836389272537815222184765968479",
+                  "12348"
+                ],
+                [
+                  "9014674706105962638739924738030923983592690228294732339282115177231815301858",
+                  "16790829526652828470731120779576928039328903911652588346162133086901757302203",
+                  "12351"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "event": "NullifierConsumed",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "nullifier",
+              "value": "13833357992986234446893627345349087093794715932041341559258225409308611594407"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "txType",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "54065236c258ba7e0b98c2864f27f7045d6d981f76a5335f21d8575f4d39fa93"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "69380910076159924343713506903145619987524764097054386003610062213665688064"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "e344e9187ef89ea673aa3d0db93abe876f5e833b12f66ff795b4755b260c47d1"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2507129580800576415310213476329593698416391264780824593875808372697672862199"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12346"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "d220213c7a08db3c27c91080a21965e2446bc2464aa51f5b7b5c18de96625c7a"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2389869956642931996484115846621244228242308508646336869439890347782986535935"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12347"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "0dffbc4710001e5158f2f487559a17b0f95cdbfadc94bb2907441b47a8204b23"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1731928062254886543362680362201094908571634854731327205914569065354779838613"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12348"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "c0969ba3d5e7350ffbef8f62207ed077f93fa544eab7257be36636c16391c205"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "622483293687217341636314666989900509439498588441539550002130380419227130427"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12349"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "c7bf35c5d7806cd717bb1f71dfb0d0fd9e323ba564fa99377485ddb618dba185"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2537161214668124665558516639929647675895180517715894917061350133267380617687"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12351"
+            }
+          ]
+        },
+        {
+          "event": "TransactionSuccessful",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x5d8cc4f4cc2680d736557801a4dec840f1662f2910d778c8f272996592a80f11",
+          "blockNumber": 5016,
+          "args": [
+            {
+              "name": "senderAddress",
+              "value": "0x1D1b1ce438A73e9F5B59bBE7D4F6026e72540b13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+      "receiptStatus": 1,
+      "blockNumber": 5035,
+      "logs": [
+        {
+          "event": "BalancesFinalized",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "finalizedBlockNumber",
+              "value": "5014"
+            },
+            {
+              "name": "pendingBlockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "balances",
+              "value": [
+                [
+                  "0",
+                  "1",
+                  "12350"
+                ],
+                [
+                  "20284956162264006292910738895341893970356734755751882963762868902773411732848",
+                  "14710582607240363800836085653926429378984989617944314929204090970519209013090",
+                  "12349"
+                ],
+                [
+                  "14332973442372718258822566847934630738906195061140357720103585851220455521766",
+                  "8004224206567128193169801749982181912941684231241328785528602087577454502269",
+                  "12347"
+                ],
+                [
+                  "12260613036549176358330757946893353904162118008239108289406950371485326007768",
+                  "21800491161765623818997608817298753743019098706411345012208942613846430417983",
+                  "12345"
+                ],
+                [
+                  "6419323617748252367667803287167122716983275000629544988764872976024353776556",
+                  "4846500070058952502355749552555856576369331761697784131249185792422515124974",
+                  "12346"
+                ],
+                [
+                  "12856665917041675002227927965105374381905995733392718671603312239937255552114",
+                  "434308716128779413325646727384087356269589133903695442982752264804059003897",
+                  "12348"
+                ],
+                [
+                  "5757256010480541077642928570414743692294747721141447831576884687772838876990",
+                  "2051777515230083011969834713545591695405217706346378265482466195864821671063",
+                  "12351"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "event": "NullifierConsumed",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "nullifier",
+              "value": "4672481079687772324986442963653801259422834359685335374857170490991511000260"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "txType",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "f48f9f510ba803e1a0adfe49a2e6ff61bb2e6c194d75f2e724ff1df29297e281"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1514179374690665717871550920557931016507386883695473433864192805080853421464"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12350"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 1139,
+                "sha256": "590d4939c0f71647a0938e78facd324f481993942bad55ba6c64474bc0d68f8a"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2285781167968466875764098341629025959395936486793707740722761252334647971219"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12350"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12346"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "25c0d051ee1714e0349521c1d4ce93d76673b30371783af6b81d7a162814bcf9"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2410929938179255560218965798186812021375110833424165980170544948165168221184"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12350"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12347"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "c5869b282a301f1bd1d61bedaad046aa7ffff7cf2488d373d2f1013785b94603"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1297742727077017710120104148183242124921258057997515235138738791313463895837"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12350"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12348"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "b6d6c4a06b92f10467fded2bad9d3416d2acd1d1a0af4cb98e21ddecd7290b3e"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2139670672738144749885007004463909273323280774059670908335233142033759351531"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12350"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12349"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "af40ade16b0a35c00cfa609bb522ee77ecd4a7cc970e83133208a528901c9a64"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2517610090040810642147026132683886678566535821113415444909247980890334965318"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12349",
+                "12350"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "830529456599213972928639573833016409955353740281654468786206979675087701597",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12350"
+            }
+          ]
+        },
+        {
+          "event": "TransactionSuccessful",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xf724ab079be9384f9e5bb3f462558f9ddd3fdf0d7d12c5d04b9e26bb4d3a1b1f",
+          "blockNumber": 5035,
+          "args": [
+            {
+              "name": "senderAddress",
+              "value": "0xEF55C3fA260343F3E998A39B6bE2F64681826D60"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+      "receiptStatus": 1,
+      "blockNumber": 5039,
+      "logs": [
+        {
+          "event": "BalancesFinalized",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "finalizedBlockNumber",
+              "value": "5033"
+            },
+            {
+              "name": "pendingBlockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "balances",
+              "value": [
+                [
+                  "17144545732643265659010723717282452871277843208758447190664005426061577473113",
+                  "598440076421590573846802615050414624189257764830582451218918369763505765525",
+                  "12350"
+                ],
+                [
+                  "19502174589878103689697061175466398145512276424354659875448384125065544628950",
+                  "15948392474749731981885263064362945157012574195044511651717232120855760245471",
+                  "12349"
+                ],
+                [
+                  "20197558996010475814765822656581891446164988840178236478513337667095852634068",
+                  "3628180411201245579832770111478617333199644924773022030086927524426853614293",
+                  "12347"
+                ],
+                [
+                  "14368481897191466534121463406024004128287218070859375627002869371205645753295",
+                  "16322268906352156036066901339202293170657953882171530944579428180480295787174",
+                  "12345"
+                ],
+                [
+                  "14820630885052146530493806704211231652496318213328292731328123239301570728721",
+                  "18380243622344396026630080001241951076214998384415899941656232110902245259050",
+                  "12346"
+                ],
+                [
+                  "9744685858022199115528749741189512036505975244031535377898618387171530974928",
+                  "5958845412430113081516644631233270994804162113658147352438017798260204249628",
+                  "12348"
+                ],
+                [
+                  "5757256010480541077642928570414743692294747721141447831576884687772838876990",
+                  "2051777515230083011969834713545591695405217706346378265482466195864821671063",
+                  "12351"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "event": "NullifierConsumed",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "nullifier",
+              "value": "201223968480750601404754087737780890759707556199717979116573356734223727331"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "txType",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "ae2a726e53577daa3b037685c6666849eae88f7539fb4e5f38ad69bb1c919c47"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "945999631047225817565926544049063556671350813782340121082203146114346835094"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "2612634650435894093209183788358267711035578415806883370191673364188140270892",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "e1e63eaebea9352f4ed562aea8b8b63540806e780e54ca80f9244bea6e059af1"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2239338857277515968448838410569410958216911841249623212830451728168283850208"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "2612634650435894093209183788358267711035578415806883370191673364188140270892",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12346"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "bf89628253192a8e5e3028c7c0246cf46badc073d24b0811709899c031079f50"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "465593092223991781867878799718347108911041192676116886212572460688539888521"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "2612634650435894093209183788358267711035578415806883370191673364188140270892",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12347"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "fb7d91d1adfa145c0005e52cb8cbce65502c6fd1270a030a91a9ab9b3fb0af7b"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2139335179057969441121608411953432860745121587169090934265071034286701236058"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "2612634650435894093209183788358267711035578415806883370191673364188140270892",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12348"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "855d12b9708f8770f0c414c97b9b074cffba429a446cdc71f6f1dfb55109e30c"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2232245435170429342521751283215879178256961070603426384216461026987504647235"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "2612634650435894093209183788358267711035578415806883370191673364188140270892",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12350"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "39a80dd821b848e52501320ae71f2dd3bc6f68f992f6e445b3084cedde367cfc"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "208442990952928298218898174057777356622351967484146939320042458564948028953"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12348",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "2612634650435894093209183788358267711035578415806883370191673364188140270892",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12351"
+            }
+          ]
+        },
+        {
+          "event": "TransactionSuccessful",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xaaaa6712d032cefa886733f144506b71b9f1369448162a1a96cad200a1c6ca77",
+          "blockNumber": 5039,
+          "args": [
+            {
+              "name": "senderAddress",
+              "value": "0x5BCB93ceCd4A3c2831b7F6F537132bCC844Da04D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+      "receiptStatus": 1,
+      "blockNumber": 5056,
+      "logs": [
+        {
+          "event": "BalancesFinalized",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "finalizedBlockNumber",
+              "value": "5037"
+            },
+            {
+              "name": "pendingBlockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "balances",
+              "value": [
+                [
+                  "19719288784606968701117661191228385985987772042222448404866700066166993896264",
+                  "9016649016653669059984551874285034487823659391023848196789755323073424993849",
+                  "12350"
+                ],
+                [
+                  "19502174589878103689697061175466398145512276424354659875448384125065544628950",
+                  "15948392474749731981885263064362945157012574195044511651717232120855760245471",
+                  "12349"
+                ],
+                [
+                  "2662174255492713842327493779853534391278831256793117302171653225504048549938",
+                  "21392633537555313646936295893019500577019505482847628796398084413492209039651",
+                  "12347"
+                ],
+                [
+                  "5367120378548835524825776163325804127404907932336937380386588611413578502335",
+                  "18742672061284366807342401479429760633955648748652247557373654593993232152178",
+                  "12345"
+                ],
+                [
+                  "3408240545337703409182208049213005643995150837315477983721235991786298112490",
+                  "10675318175686787129207928298543151197690739825968873053996529112903829944231",
+                  "12346"
+                ],
+                [
+                  "2182578476239060997575423477157612827496290094964137133653988050451544200507",
+                  "4751881318392088579623691398546996852617662615744092446453338664554752919948",
+                  "12348"
+                ],
+                [
+                  "2149357737174948104054418210966571256841245998162752810976411357108421869195",
+                  "14305848213787622757549710249030406147894983128638107361663956187459603986886",
+                  "12351"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "event": "NullifierConsumed",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "nullifier",
+              "value": "12554843198109150995462185183263618579538951125119246755398280487645266009109"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "txType",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "34fc8427bffadc599a960ced2f90d99d6cb66dad5371c065ed8640d213e9eb2b"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1908845198935982097831173910006097497646349829270376079424039240824821479041"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12347",
+                "12348",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1299860592442011713687628407699154449187159157873080490373143836981889226166",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "ec219951a78067cf8c2f16085fdabfb1eb5d58dc0c8b3d27b7004a5d4116a369"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1922057751029057132961599372895205452499142262603709972101949273326492569597"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12347",
+                "12348",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1299860592442011713687628407699154449187159157873080490373143836981889226166",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12347"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 426,
+                "sha256": "1f5cd59f27ae7c64ea131aeda16e489a13c9f13136e5db00a4049dab508b2066"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "959591391975078768807286886270754188182137199064668364492908688794112773826"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12347",
+                "12348",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1299860592442011713687628407699154449187159157873080490373143836981889226166",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12348"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "2fe9db52a2a0b1e67f03a9a514dbb2606b54e69634144082cf8ef1d8666a7ea8"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2637005044456694991644675490632605966402664930895550112730626459538167676654"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12347",
+                "12348",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1299860592442011713687628407699154449187159157873080490373143836981889226166",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12349"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "40cf2e9ec29f5df3a8ddc1a51e669f52d69b1f03797e81cf67427a4fa6d20a45"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "197318346935528610203930668376111426743209614984625358389280616561909368422"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12347",
+                "12348",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1299860592442011713687628407699154449187159157873080490373143836981889226166",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12350"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 1138,
+                "sha256": "b643fae75669a3fdf5a7aa9b183249694c041546513f9d9f15c5d85f6e65e6b4"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1714180189083183154899632219480669794977275988759243830603721270837351406805"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12347",
+                "12348",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1299860592442011713687628407699154449187159157873080490373143836981889226166",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "802979052189343363575146228753379672190985973981207447270117115269193563690",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12351"
+            }
+          ]
+        },
+        {
+          "event": "TransactionSuccessful",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0x8e24ca8e671e6ac33b3079c0bcef14bfd5e4acd42ce099da9992536b16187a34",
+          "blockNumber": 5056,
+          "args": [
+            {
+              "name": "senderAddress",
+              "value": "0x1D1b1ce438A73e9F5B59bBE7D4F6026e72540b13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+      "receiptStatus": 1,
+      "blockNumber": 5060,
+      "logs": [
+        {
+          "event": "BalancesFinalized",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "finalizedBlockNumber",
+              "value": "5054"
+            },
+            {
+              "name": "pendingBlockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "balances",
+              "value": [
+                [
+                  "9440718822286747458902542307310907197502627231193228240412307609132314316324",
+                  "9797130871674803655720976867769785464374629435464756120466778924435943621277",
+                  "12350"
+                ],
+                [
+                  "6097117587166577487588054590444801751017674899686240995841361866619005285033",
+                  "18460794385933488494465043247545490624464304935689198123845830243958512215469",
+                  "12349"
+                ],
+                [
+                  "17946928305685403270852519418816930362261430552495740989396038976769123947697",
+                  "8447712678269599049660035390380422902922131191050314439726453875468353939969",
+                  "12347"
+                ],
+                [
+                  "11606477719766768831806135044946175190392985073148315755977732372996687004577",
+                  "12975912092937709118834134615629452783597760854357071986687728878499952768779",
+                  "12345"
+                ],
+                [
+                  "3408240545337703409182208049213005643995150837315477983721235991786298112490",
+                  "10675318175686787129207928298543151197690739825968873053996529112903829944231",
+                  "12346"
+                ],
+                [
+                  "15490358638106049660025759323770982235244174529804849902097075268403512528052",
+                  "14173421833902661417134618428888527936450662003262465970949798611557525995733",
+                  "12348"
+                ],
+                [
+                  "6999879045908198795344120917919934837513825201173957405667907281206508516544",
+                  "7640387698608381601289483921654638052514607696815509820170596297987989419786",
+                  "12351"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "event": "NullifierConsumed",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "nullifier",
+              "value": "15808497312819593507657310023601349109365671829644005438110868696921750034658"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "txType",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "c1cf6ab8364f548af78f3d3ebc1e967da1e0d38452367900ff10b2e769d997f3"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "1799529761302967816513661906661748302257655026454336645801457889867536710607"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1508899659649664575819496539926041737653731781935476996273610745685823814640",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12345"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "c279d9f73a0546d5407e7a51c9f2228b853353d187d27d8e36fb45b90fc0dfc8"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2656701339180428861817858942003696351651220419064198289660938289605861304892"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1508899659649664575819496539926041737653731781935476996273610745685823814640",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12346"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "82c5231a1222154385ce43fe2a67ddb6515704cbf90fcb883c8b1f8674b513e1"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "497853052615449539253144043365128089688324920843054132156297784275288342713"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1508899659649664575819496539926041737653731781935476996273610745685823814640",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12347"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 427,
+                "sha256": "5413f2fa6764d437da48844f06d936837104dc8c58bd0031234ea2bf4254295f"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "896823681796854145207091713992475527543200179725786334128667187580228699389"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1508899659649664575819496539926041737653731781935476996273610745685823814640",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12349"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 428,
+                "sha256": "88a3bcaff37fe99de091b0288cf9d8fb57bba0380b77b9bafe48a6a5fe0aff2f"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "2591017379456702375689772302079942644817398894069937833844460687700195204046"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1508899659649664575819496539926041737653731781935476996273610745685823814640",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12350"
+            }
+          ]
+        },
+        {
+          "event": "EnygmaTransfer",
+          "artifact": "EnygmaTeleport",
+          "emitter": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "resourceId",
+              "value": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+            },
+            {
+              "name": "encryptedMessage",
+              "value": {
+                "bytes": 426,
+                "sha256": "6b8d4c4852346e655118c6387f2ca1e6d3b90f8446ea81147bbcef93286d880f"
+              }
+            },
+            {
+              "name": "messageTag",
+              "value": "183155171490380900044006920891803256190940523176041693745688298976194705230"
+            },
+            {
+              "name": "blockNumber",
+              "value": "5058"
+            },
+            {
+              "name": "anonymitySet",
+              "value": [
+                "12345",
+                "12346",
+                "12347",
+                "12349",
+                "12350",
+                "12351"
+              ]
+            },
+            {
+              "name": "arrayHashSecrets",
+              "value": [
+                "1508899659649664575819496539926041737653731781935476996273610745685823814640",
+                "805762170279553105539390038692850425117536478661014804630323526675410259460",
+                "1131494694179243650234725505864656773505705503050509659836307013269271275445",
+                "361876501223049759497290252447009460983297776109055349344700345422448351695",
+                "30186651246829852182278539650760059422852508703154943249153469926146989305",
+                "1522730248386877077515650262991976974568874808475889687708222726370141315278"
+              ]
+            },
+            {
+              "name": "toChainId",
+              "value": "12351"
+            }
+          ]
+        },
+        {
+          "event": "TransactionSuccessful",
+          "artifact": "EnygmaV1",
+          "emitter": "0x9467A509DA43CB50EB332187602534991Be1fEa4",
+          "txHash": "0xbf314b1cdad54f26bbc1143e254fe5ba0c4717123c1b6204079b4b5821b76580",
+          "blockNumber": 5060,
+          "args": [
+            {
+              "name": "senderAddress",
+              "value": "0x5BCB93ceCd4A3c2831b7F6F537132bCC844Da04D"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

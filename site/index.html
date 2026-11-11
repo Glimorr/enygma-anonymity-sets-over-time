@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="color-scheme" content="dark"/>
+<meta name="theme-color" content="#080611"/>
+<title>Can Enygma's Six-Bank Anonymity Cap Reveal Payment Relationships? | Independent Rayls Study</title>
+<meta name="description" content="Interactive Rayls Enygma research: 5,000 native observations, blind controls, genuine seven-bank local Hub receipts, six decoded batches, 3D visualizations and reproducible evidence."/>
+<meta name="robots" content="index,follow"/>
+<style>
+:root{--bg:#080c15;--panel:#111927;--panel2:#172133;--line:#2c394e;--text:#f1f5fd;--muted:#a3b4c9;--green:#bdfb60;--purple:#a68bff;--cyan:#54e3d8;--amber:#efc086}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(circle at 100% 0%,#25184480,transparent 37rem),radial-gradient(circle at 0 30%,#112d2a88,transparent 42rem),var(--bg);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.6;overflow-x:hidden}
+a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}button,select,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+.skip{position:absolute;left:-9999px;top:10px}.skip:focus{left:14px;z-index:999}
+.container{width:min(1180px,calc(100% - 48px));margin-inline:auto}.nav{position:sticky;top:0;z-index:30;background:#080c15de;border-bottom:1px solid #ffffff12;backdrop-filter:blur(20px)}
+.nav-inner{min-height:70px;display:flex;align-items:center;gap:35px;justify-content:space-between}.mark{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.09em;font-size:14px}.mark-shape{display:inline-grid;place-items:center;width:34px;height:34px;border:1px solid #bdfb6070;background:#bdfb6013;border-radius:9px;color:var(--green);font-size:18px}
+.nav-links{display:flex;align-items:center;gap:25px;font-size:13px;color:var(--muted)}.nav-links a{color:var(--muted)}.nav-links a:hover{color:var(--text)}
+.status-chip{border:1px solid #efc08665;background:#efc08614;color:#f5cd93;padding:6px 11px;border-radius:99px;font:700 11px/1.3 monospace;letter-spacing:.04em}
+.hero{min-height:665px;display:grid;grid-template-columns:1fr .9fr;align-items:center;gap:38px;position:relative;padding-top:58px;padding-bottom:70px}
+.eyebrow{color:var(--green);font:700 12px/1.4 monospace;letter-spacing:.18em;text-transform:uppercase}.hero h1{font-size:clamp(41px,4.5vw,71px);line-height:1.08;letter-spacing:-.05em;margin:20px 0 21px;max-width:830px}.gradient{background:linear-gradient(130deg,var(--green),var(--cyan) 54%,var(--purple));background-clip:text;color:transparent}
+.hero p{font-size:17px;color:var(--muted);max-width:620px}.lead{font-size:19px!important;color:#dfe7f5!important}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid #90b5a8;border-radius:11px;padding:13px 18px;font-size:14px;font-weight:700;transition:transform .22s,background .22s}
+.btn.primary{background:var(--green);border-color:var(--green);color:#101913}.btn.primary:hover{background:#d0ff8d;text-decoration:none;transform:translateY(-2px)}
+.btn.secondary{color:var(--text);background:#ffffff08;border-color:#ffffff25}.btn.secondary:hover{text-decoration:none;background:#ffffff12}
+.small-note{color:var(--muted);font-size:12px;margin-top:24px}
+.orbit{position:relative;min-height:420px;perspective:900px;display:grid;place-items:center;isolation:isolate}.orb-glow{width:400px;height:400px;position:absolute;background:radial-gradient(circle,#45cda539,transparent 70%);filter:blur(10px)}
+.orb-core{z-index:4;width:132px;height:132px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#203729,#0d1628);border:1px solid #7af7ad99;box-shadow:0 0 45px #37e5bd20,inset 0 0 32px #4fe6c51e;font-weight:800;font-size:17px;letter-spacing:.15em}
+.orb-ring{position:absolute;border:1px solid #98b8d84a;border-radius:50%;transform:rotateX(70deg);width:360px;height:360px;box-shadow:0 0 50px #9d82ff08}
+.orb-ring:nth-of-type(2){transform:rotateX(55deg) rotateY(22deg);border-color:#bdfb6060;width:455px;height:455px}
+.orb-ring:nth-of-type(3){transform:rotateX(66deg) rotateY(-25deg);border-color:#9d82ff50;width:295px;height:295px}
+.orb-node{position:absolute;width:55px;height:55px;border:1px solid #afc5f988;border-radius:50%;display:grid;place-items:center;background:#152035dd;box-shadow:0 5px 25px #0009;font:800 15px monospace}
+.orb-node.n1{top:46px;left:44%;color:var(--green);border-color:var(--green)}.orb-node.n2{top:130px;right:8%;color:var(--purple)}.orb-node.n3{bottom:76px;right:18%;color:var(--cyan)}.orb-node.n4{bottom:40px;left:25%;color:var(--purple)}.orb-node.n5{top:142px;left:7%;color:var(--cyan)}.orb-node.n6{bottom:152px;left:0%;color:#cad7e6}
+.orb-caption{position:absolute;bottom:0;color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-top:-28px;position:relative;z-index:5}
+.metric,.panel{background:linear-gradient(130deg,#182439dd,#0e1726f5);border:1px solid #34455f9c;border-radius:17px}.metric{padding:23px}.metric .num{font-weight:850;font-size:32px;letter-spacing:-.04em;color:var(--text)}.metric .hint{font-size:12px;color:var(--muted);letter-spacing:.02em}
+section{padding-top:104px;padding-bottom:18px;scroll-margin-top:85px}.section-top{display:flex;justify-content:space-between;gap:30px;align-items:end}.kicker{font:750 12px/1.4 monospace;color:var(--green);letter-spacing:.16em;text-transform:uppercase;margin-bottom:15px}h2{font-size:clamp(30px,3.4vw,45px);line-height:1.18;letter-spacing:-.04em;max-width:780px;margin:0 0 18px}h3{font-size:20px;line-height:1.3;letter-spacing:-.025em}section .description{max-width:790px;color:var(--muted);margin:0 0 25px}
+.cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{padding:26px;background:linear-gradient(140deg,#182034c7,#101825e8);border:1px solid var(--line);border-radius:17px}.card .index{font:800 12px monospace;color:var(--green);margin-bottom:17px}.card h3{margin:0 0 10px}.card p{font-size:14px;color:var(--muted);margin:0}
+.inline-note{padding:15px 19px;background:#e9bd6110;border-left:3px solid var(--amber);border-radius:7px;color:#dce2ed;font-size:14px}
+.lab{padding:25px;margin-top:25px}.lab-toolbar{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:end;margin-bottom:22px}.lab label{display:block;font-weight:650;font-size:13px;margin-bottom:9px;color:#dbe7f4}
+select{min-width:min(430px,100%);max-width:100%;background:#0c1624;color:var(--text);padding:12px;border:1px solid var(--line);border-radius:8px}
+.toggle{display:flex;align-items:center;gap:10px;cursor:pointer;color:var(--muted);font-size:13px}
+input[type=checkbox]{appearance:none;width:39px;height:23px;border-radius:15px;background:#344155;position:relative;border:1px solid #7c89a3;transition:background .15s}
+input[type=checkbox]:checked{background:#6ecda7}input[type=checkbox]:before{content:"";position:absolute;width:15px;height:15px;top:3px;left:3px;border-radius:50%;background:#fff;transition:transform .15s}
+input[type=checkbox]:checked:before{transform:translateX(16px)}.lab-details{display:grid;grid-template-columns:1.6fr 1fr;gap:25px}
+.chart-panel{background:#0a1321;border:1px solid #263954;border-radius:13px;padding:15px}.chart-panel svg{max-width:100%;height:auto;display:block}
+.lab-stats{display:flex;flex-direction:column;gap:10px}.mini{background:#101c2d;border:1px solid #293950;border-radius:11px;padding:13px 16px}.mini strong{font-size:19px;display:block}.mini span{display:block;color:var(--muted);font-size:12px}
+.range-row{margin-top:20px;display:flex;align-items:center;gap:17px}.range-row input{flex:1;accent-color:var(--green)}.range-row strong{min-width:45px;text-align:right}
+.figure-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.figure{margin:0;padding:11px;border:1px solid var(--line);border-radius:14px;background:#111927}.figure img{display:block;width:100%;border-radius:7px;aspect-ratio:1.76;object-fit:cover}.figure figcaption{padding:10px 7px 5px;color:var(--muted);font-size:13px}
+.reference-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:18px}.evidence-list{list-style:none;margin:0;padding:0}.evidence-list li{padding:14px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font-size:13px}.evidence-list li:last-child{border-bottom:0}.ok{color:var(--green)}.pending{color:var(--amber)}
+pre{padding:19px;background:#070e18;border:1px solid #25354e;border-radius:11px;color:#d6e6fc;overflow:auto;font:13px/1.9 ui-monospace,SFMono-Regular,Consolas,monospace}.code-head{color:var(--muted);font:700 12px monospace;margin-bottom:10px}
+.site-footer{margin-top:105px;border-top:1px solid var(--line);padding:39px 0 60px;color:var(--muted);font-size:13px}
+.footer-flex{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.tag{color:var(--amber);font-size:11px;font-weight:800;letter-spacing:.09em}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}
+@media (max-width:900px){.hero{grid-template-columns:1fr;min-height:auto;padding-top:70px}.orbit{min-height:310px}.metrics{margin-top:15px;grid-template-columns:repeat(2,1fr)}.cards-3{grid-template-columns:1fr}.lab-details,.reference-grid{grid-template-columns:1fr}.figure-grid{grid-template-columns:1fr}.nav-links{gap:12px}.orb-ring{width:300px;height:300px}.orb-ring:nth-of-type(2){width:350px;height:350px}}
+@media (max-width:600px){.container{width:min(100% - 32px,1180px)}.nav-inner{gap:10px}.nav-links{display:none}.hero{padding-top:52px}.hero h1{font-size:43px}.hero p{font-size:16px}.orbit{min-height:320px;scale:.83}.metrics{gap:9px}.metric{padding:15px}.metric .num{font-size:25px}.section-top{display:block}section{padding-top:75px}.lab{padding:13px}.lab-toolbar{display:block}.toggle{margin-top:13px}.reference-grid{display:block}.reference-grid .panel{margin-top:15px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+<link rel="stylesheet" href="experience.css"/>
+<link rel="stylesheet" href="polish.css"/>
+<link rel="canonical" href="https://glimorr.github.io/enygma-anonymity-sets-over-time/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Enygma Anonymity Sets Over Time | Independent Rayls Research"/>
+<meta property="og:description" content="Five thousand native observations and genuine seven-bank local Hub receipts, analyzed with blind controls and reproducible evidence."/>
+<meta property="og:url" content="https://glimorr.github.io/enygma-anonymity-sets-over-time/"/>
+<meta name="twitter:card" content="summary_large_image"/>
+</head>
+<body>
+<div id="reading-progress" aria-hidden="true"></div>
+<canvas id="rayls-starfield" aria-hidden="true"></canvas>
+<a href="#question" class="skip">Skip to research</a>
+<header class="nav"><div class="container nav-inner">
+<div class="mark"><img class="brand-symbol" src="assets/rayls-symbol-gradient.png" alt=""/><span class="brand-wordmark"><strong>Rayls / Enygma</strong><small>INDEPENDENT RESEARCH · 2026</small></span></div>
+<nav class="nav-links" aria-label="Page sections"><a href="#question">Question</a><a href="#journey">3D walkthrough</a><a href="#lab">Experiment</a><a href="#live">Hub receipts</a><a href="#figures">Visuals</a><a href="#evidence">Evidence</a></nav>
+<span class="status-chip">SOURCE + LOCAL HUB VERIFIED</span>
+</div></header>
+<main>
+<section class="hero container" id="question">
+<div>
+<div class="eyebrow">Rayls Enygma · Longitudinal privacy research</div>
+<div class="hero-eyebrow-line" aria-hidden="true"></div>
+<h1>Does a six-bank cap reveal <span class="gradient">who gets paid?</span></h1>
+<p class="lead">Single transactions conceal their receiver among decoys. Repeated public membership sets might tell a different story.</p>
+<p>We tested Rayls' actual anonymity-set selection function across ten controlled traffic conditions, separating observer-visible data from hidden recipients and blind predictions from ground truth.</p>
+<div class="hero-actions"><a class="btn primary" href="#lab">Explore observed data</a><a class="btn secondary" href="#evidence">Inspect evidence</a></div>
+<p class="small-note">Current evidence: 5,000 native selections plus 6 mined local Hub anonymity-set batches. Public Testnet evidence commitments remain pending.</p>
+<div class="hero-scroll-hint" aria-hidden="true">Scroll to examine the evidence</div>
+</div>
+<div class="orbit" aria-label="Decorative three-dimensional bank network visualization"><div class="orb-glow"></div><div class="orb-ring"></div><div class="orb-ring"></div><div class="orb-ring"></div><div class="orb-node n1">A</div><div class="orb-node n2">B</div><div class="orb-node n3">C</div><div class="orb-node n4">D</div><div class="orb-node n5">E</div><div class="orb-node n6">F</div><div class="orb-core">ENYGMA</div><div class="orb-caption">Six visible participants • receiver hidden</div></div>
+</section>
+<div class="container metrics" aria-label="Verified experiment statistics">
+<div class="metric"><div class="num" id="stat-trials">5,000</div><div class="hint">native set selections</div></div>
+<div class="metric"><div class="num" id="stat-scenarios">10</div><div class="hint">controlled conditions</div></div>
+<div class="metric"><div class="num" id="stat-preferred">7/7</div><div class="hint">preferred cases identified</div></div>
+<div class="metric"><div class="num" id="stat-null">0/3</div><div class="hint">null controls flagged</div></div>
+</div>
+<div class="evidence-separator" aria-hidden="true">
+<span class="filament"></span><span class="diamond"></span><small>THE OBSERVATION</small><span class="diamond"></span><span class="filament last"></span>
+</div>
+<section class="container reveal" id="mechanism">
+<div class="kicker">01 / Research question</div>
+<h2>Concealment in one batch does not automatically mean privacy over time.</h2>
+<p class="description">When more than six institutions are registered, the current Rayls relayer includes the sender and genuine receivers, then adds randomly selected zero-value participants until the set contains six banks. A frequent receiver can appear more often than a random decoy.</p>
+<div class="cards-3">
+<article class="card"><div class="index">OBSERVATION</div><h3>The sender is visible</h3><p>Authorized Hub observers can identify the sending participant and the bank IDs inside each anonymity set. Individual receiver amounts are not visible to ordinary observers.</p></article>
+<article class="card"><div class="index">HYPOTHESIS</div><h3>Repeated inclusion is informative</h3><p>For a sender repeatedly choosing one bank, membership frequency may increase above the balanced-traffic baseline if the network has more than six registered banks.</p></article>
+<article class="card"><div class="index">CONTROL</div><h3>The same method must also fail</h3><p>Balanced recipient schedules, six-member networks, and zero-only traffic must not be mislabeled as a reliable preferred-payee signal.</p></article>
+</div>
+</section>
+
+<section class="depth-story" id="journey" aria-label="Scroll-driven protocol visualization">
+<div class="container depth-sticky">
+  <div class="depth-heading">
+    <div class="kicker">02 / A privacy question in three dimensions</div>
+    <h2>A hidden receiver today. <span class="gradient">An observable pattern tomorrow?</span></h2>
+    <p class="depth-intro">Scroll through the protocol illustration, then inspect the real native experiment data below. This 3D sequence illustrates the observer model—it is not a captured transaction.</p>
+  </div>
+  <div class="depth-shell">
+    <div class="depth-viewport" aria-label="Illustrative 3D bank network, not experimental evidence">
+      <div class="depth-grid" aria-hidden="true"></div>
+      <div class="depth-aura" aria-hidden="true"></div>
+      <div class="depth-scene" aria-hidden="true">
+        <div class="depth-ring"></div><div class="depth-ring r2"></div><div class="depth-ring r3"></div>
+        <div class="depth-connector" style="transform:rotate(35deg)"></div>
+        <div class="depth-connector" style="transform:rotate(98deg)"></div>
+        <div class="depth-connector" style="transform:rotate(158deg)"></div>
+        <div class="depth-connector" style="transform:rotate(225deg)"></div>
+        <div class="depth-cube">
+          <div class="depth-face front">HUB</div><div class="depth-face back">HUB</div>
+          <div class="depth-face left">ZK</div><div class="depth-face right">ZK</div>
+          <div class="depth-face top"></div><div class="depth-face bottom"></div>
+        </div>
+        <div class="bank3d sender" data-bank="A" style="--x:-171px;--y:-90px;--z:92px">A</div>
+        <div class="bank3d" data-bank="B" style="--x:172px;--y:-105px;--z:51px">B</div>
+        <div class="bank3d" data-bank="C" style="--x:181px;--y:97px;--z:-60px">C</div>
+        <div class="bank3d" data-bank="D" style="--x:-163px;--y:115px;--z:-44px">D</div>
+        <div class="bank3d" data-bank="E" style="--x:17px;--y:-169px;--z:-90px">E</div>
+        <div class="bank3d" data-bank="F" style="--x:18px;--y:149px;--z:95px">F</div>
+        <div class="bank3d dimmed" data-bank="G" style="--x:-235px;--y:10px;--z:-135px">G</div>
+      </div>
+      <div class="scene-controls"><button class="scene-control" type="button" id="motion-toggle" aria-pressed="false">Pause motion</button></div>
+    </div>
+    <div class="depth-step-stack" aria-label="Select an explanatory stage">
+      <button class="depth-step" type="button" data-phase="0" aria-current="step">
+        <span class="phase">PHASE 01 / ONE TRANSACTION</span>
+        <strong>Six visible participants</strong>
+        <span class="step-info">The sender and set members are public. A genuine recipient remains indistinguishable from zero-value decoys in this observer model.</span>
+      </button>
+      <button class="depth-step" type="button" data-phase="1">
+        <span class="phase">PHASE 02 / REPEATED MEMBERSHIP</span>
+        <strong>Different decoys appear over time</strong>
+        <span class="step-info">When more than six banks are registered, decoy membership changes. A frequent recipient may appear disproportionately often.</span>
+      </button>
+      <button class="depth-step" type="button" data-phase="2">
+        <span class="phase">PHASE 03 / BLIND ANALYSIS</span>
+        <strong>Test the signal against controls</strong>
+        <span class="step-info">Rank candidates without reading private labels; compare with balanced, mixed and zero-only conditions before interpreting the result.</span>
+      </button>
+    </div>
+    <div class="depth-progress"><span>SCROLL TO EXPLORE</span><span class="depth-progress-bar"><span></span></span></div>
+  </div>
+</div>
+</section>
+
+<section class="container reveal" id="lab">
+<div class="kicker">02 / Source-level experiments</div>
+<h2>Explore the observable evidence without seeing the recipient labels.</h2>
+<p class="description">These are actual outputs of the pinned Go selection function with synthetic schedules. The chart shows membership frequency, not a probability that a bank received money. Use the reveal switch to compare a blind inference with researcher-only ground truth.</p>
+<div class="lab panel">
+<div class="lab-toolbar"><div><label for="scenario">Experiment condition</label><select id="scenario" aria-label="Select an experiment"></select></div>
+<label class="toggle"><input id="truth-reveal" type="checkbox"/> Show disclosed ground truth</label></div>
+<div class="lab-details">
+<div class="chart-panel"><svg id="frequency" role="img" aria-label="Bar chart of anonymity-set member frequency"></svg></div>
+<div class="lab-stats"><div class="mini"><span>Top candidate by membership count</span><strong id="top-bank">—</strong></div><div class="mini"><span>Observer's family-wise null test</span><strong id="test-signal">—</strong></div><div class="mini"><span>Real receiving preference (hidden until reveal)</span><strong id="true-bank">HIDDEN</strong></div><div class="mini"><span>Evidence classification</span><strong style="font-size:15px;color:var(--cyan)">NATIVE / SYNTHETIC</strong></div></div>
+</div>
+<div class="range-row"><label for="prefix" style="margin:0;white-space:nowrap">Observation prefix</label><input id="prefix" type="range" min="0" max="4" step="1" value="4" aria-label="Number of included observations"/><strong id="prefix-label">500</strong></div>
+</div>
+<p class="inline-note" style="margin-top:17px"><strong>Boundary of this result:</strong> Native source tests validate the selection mechanism. An institutional privacy finding on a functioning 7+ participant Hub requires authentic, independently checkable network observations.</p>
+</section>
+<section class="container reveal live-evidence" id="live">
+<div class="kicker">03 / Observed on local blockchain</div>
+<h2>Not just a model. <span class="gradient">Six real Hub batches, decoded.</span></h2>
+<p class="description">The researcher-controlled seven-bank lab emitted actual EnygmaTransfer events on its Private Network Hub. Independent ABI decoding and fresh RPC queries confirmed six batches containing 36 encrypted transfer envelopes, with exactly six visible members per batch. Select a row to inspect the authentic local block and transaction hash.</p>
+<div class="live-summary">
+<div class="live-stat"><strong id="live-batches">—</strong><span>mined Hub batches with six-member sets</span></div>
+<div class="live-stat"><strong id="live-envelopes">—</strong><span>real encrypted transfer event envelopes</span></div>
+<div class="live-stat"><strong id="live-receipts">—</strong><span>receipts checked again against live local RPC</span></div>
+<div class="live-stat"><strong id="live-units">—</strong><span>smallest token units finally accounted for</span></div>
+</div>
+<div class="live-lab">
+  <div class="live-heatmap">
+    <h3>Actual anonymity-set membership</h3>
+    <p class="live-help">A–G are local test institutions with chain IDs 12345–12351. Filled cells mean a bank appeared in the recorded set, not that it received money.</p>
+    <div id="hub-matrix" class="live-scroll" role="region" aria-label="Scroll through observed local Hub batches" tabindex="0"></div>
+  </div>
+  <div class="live-detail" aria-live="polite">
+    <div class="kicker">Inspect mined batch</div>
+    <h3 id="hub-selected-block">Select a batch</h3>
+    <div class="live-label">Included institutions</div><strong id="hub-selected-members">—</strong>
+    <div class="live-label">Excluded institution</div><strong id="hub-missing-member">—</strong>
+    <div class="live-label">Actual local transaction hash</div><span class="live-hash" id="hub-selected-tx">—</span>
+    <button id="copy-hub-tx" class="live-copy" type="button">Copy transaction hash</button>
+    <p id="hub-selection-caption">Local Hub evidence.</p>
+  </div>
+</div>
+<div class="proof-boundary">
+<strong>Evidence classification: local, researcher-controlled blockchain.</strong>
+<p>These are real mined transactions on our isolated Rayls test environment. They are not Rayls Public Testnet transactions and do not establish independent third-party consensus or a successful real-world deanonymization attack. Six batches cannot statistically validate the longitudinal receiver-inference hypothesis by themselves.</p>
+</div>
+<div class="late-settlement"><strong>What happened during the seven-bank test?</strong><p>A→B settled inside the observed interval. A→G first timed out because the new bank's CTS TLS server certificate lacked its hostname; after correcting the certificate, the relayer caught up and the original payment settled without another source transfer. The final balances reconcile to 5,000/5,000 smallest units. The initial timeout remains a recorded failed timing criterion.</p></div>
+</section>
+<div class="evidence-separator" aria-hidden="true">
+<span class="filament"></span><span class="diamond"></span><small>TRACE THE EVIDENCE</small><span class="diamond"></span><span class="filament last"></span>
+</div>
+<section class="container reveal" id="figures">
+<div class="kicker">04 / Original figures</div>
+<h2>Five original diagrams, grounded in actual observations.</h2>
+<p class="description">These original vector illustrations are generated from source-level measurements, actual local Hub receipts and verified balances. They clearly distinguish schematics from mined transaction evidence.</p>
+<div class="figure-grid">
+<figure class="figure"><img loading="lazy" src="assets/01-anonymity-set-model.svg" alt="Diagram showing the sender and six member banks visible in an Enygma anonymity set"/><figcaption><strong>Figure 1.</strong> What an ordinary Hub observer sees.</figcaption></figure>
+<figure class="figure"><img loading="lazy" src="assets/02-native-inclusion-measurements.svg" alt="Observed membership frequencies under balanced and preferred-recipient schedules"/><figcaption><strong>Figure 2.</strong> Repeated native samples and observable inclusion frequencies.</figcaption></figure>
+<figure class="figure"><img loading="lazy" src="assets/03-controls-and-blind-results.svg" alt="Matrix of ten blind prediction scenarios and the registered ground truth"/><figcaption><strong>Figure 3.</strong> The positive, balanced, mixed and zero-only controls.</figcaption></figure>
+<figure class="figure"><img loading="lazy" src="assets/04-evidence-boundaries.svg" alt="Evidence taxonomy diagram showing source-level observations, six verified local Hub batches, and the pending public Testnet anchor"/><figcaption><strong>Figure 4.</strong> Which evidence exists, and what it can actually prove.</figcaption></figure>
+<figure class="figure"><img loading="lazy" src="assets/05-seven-bank-settlement.svg" alt="A to B settled; A to G settled late after CTS certificate correction; all 5,000 minted units accounted for"/><figcaption><strong>Figure 5.</strong> Original local payments and exact balance reconciliation, with G’s initial timeout retained.</figcaption></figure>
+</div>
+</section>
+<section class="container reveal" id="evidence">
+<div class="kicker">05 / Reproduction and provenance</div>
+<h2>Evidence that can be checked, not merely believed.</h2>
+<p class="description">The research release preserves the native observer ledger, its separately sealed ground truth and predictions, real local-chain receipts, decoded Hub events and integrity tests. Official Git revisions are pinned; local-chain evidence is never presented as independent external consensus.</p>
+<div class="reference-grid">
+<div class="panel" style="padding:26px"><h3 style="margin-top:0">Verification register</h3>
+<ul class="evidence-list">
+<li><span>Original relayer selection function</span><strong class="ok">PINNED</strong></li>
+<li><span>5,000 native records and truth reconciliation</span><strong class="ok">PASS</strong></li>
+<li><span>Blind prediction checksum</span><strong class="ok">SEALED</strong></li>
+<li><span>Six adversarial verifier checks</span><strong class="ok">PASS</strong></li>
+<li><span>Seven-member offline Compose topology</span><strong class="ok">PASS</strong></li>
+<li><span>Hub, seven-bank and local-public RPC topology</span><strong class="ok">9/9 LOCAL RPC</strong></li>
+<li><span>Local seven-bank Hub receipts / 36 Enygma event envelopes</span><strong class="ok">7 RECEIPTS / VERIFIED</strong></li>
+<li><span>A→B and late A→G final balance accounting</span><strong class="ok">5,000/5,000</strong></li>
+<li><span>Public Testnet evidence commitments</span><strong class="pending">PENDING</strong></li>
+</ul>
+<p style="margin-top:20px;font-size:13px;color:var(--muted)">These statuses distinguish actual local-chain receipts from the future public Rayls Testnet hash commitments. The latter remain pending.</p>
+</div>
+<div class="panel" style="padding:26px"><h3 style="margin-top:0">Pinned official source</h3><p style="font:12px/2 monospace;color:var(--muted);word-break:break-all" id="source-pins"></p>
+<h3>Primary research references</h3>
+<p style="font-size:13px"><a target="_blank" rel="noopener" href="https://docs.rayls.com/docs/enygma-privacy-and-auditing">Who sees what: privacy and oversight</a></p>
+<p style="font-size:13px"><a target="_blank" rel="noopener" href="https://docs.rayls.com/docs/how-enygma-works">How Enygma works</a></p>
+<p style="font-size:13px"><a target="_blank" rel="noopener" href="https://github.com/raylsnetwork/rayls-sovereign-relayer/blob/b01b427de4cfc2ac66e75eba0d5070b73a3b137c/enygma/service/batcher.go">Pinned native padding implementation</a></p>
+</div>
+</div>
+<div style="margin-top:24px">
+<div class="code-head">VERIFICATION COMMANDS • FROM RESEARCH REPOSITORY ROOT</div>
+<pre><code>python3 qa/check_manifest.py
+python3 qa/verify_local_live.py --check-only
+python3 qa/verify_public.py
+python3 qa/adversarial_checks.py
+python3 analysis/analyze_public.py \
+  --observer evidence/native/hub_observer_only.csv \
+  --metadata evidence/native/native_scenario_metadata.json \
+  --output analysis/recomputed_blind_predictions.json
+
+# Native test requires Go 1.26+ and the pinned Rayls relayer checkout.
+# This replays the algorithm, not the original random sample byte-for-byte.</code></pre>
+</div>
+</section>
+<section class="container reveal" id="interpretation">
+<div class="kicker">06 / What the findings establish</div>
+<h2>Under controlled traffic, the receiver signal survived every positive test.</h2>
+<p class="description">Across seven preferred-recipient conditions, the largest membership-frequency candidate matched the hidden preferred bank. None of three pre-registered null controls triggered the family-wise significance decision. This supports a source-level privacy hypothesis, not a claim that production payments have been deanonymized.</p>
+<div class="inline-note"><strong>Why the distinction matters.</strong> Real installations introduce additional variables: multiple payment legs per batch, finalization transactions, changing network membership, background traffic, and privileged observers. We are separately assessing those controls before any wider conclusion.</div>
+</section>
+</main>
+<footer class="site-footer"><div class="container footer-flex"><div><strong style="color:var(--text)">Enygma recipient privacy</strong><div>Independent, source-pinned research · November 2026 · Not affiliated with Rayls</div></div><div><span class="tag">NATIVE + LOCAL HUB / NO PRODUCTION ATTACK CLAIM</span><div style="margin-top:8px">No trackers. No synthetic data presented as genuine payments.</div><div style="margin-top:8px"><a href="https://github.com/Glimorr/enygma-anonymity-sets-over-time" target="_blank" rel="noopener">Source, raw receipts and reproducible verification on GitHub</a></div></div></div></footer>
+<script src="data.js"></script>
+<script>
+(function(){
+"use strict";
+const d=window.RAYLS_RESEARCH_DATA;
+if(!d){document.body.insertAdjacentHTML('afterbegin','<p role="alert">Research data unavailable.</p>');return}
+const $=id=>document.getElementById(id);
+$("stat-trials").textContent=d.trials.toLocaleString();
+$("stat-scenarios").textContent=d.scenarioCount;
+$("stat-preferred").textContent=d.preferredCorrect+"/"+d.preferredTotal;
+$("stat-null").textContent=d.nullFalsePositives+"/"+d.nullTotal;
+const scenario=$("scenario"), slider=$("prefix"),reveal=$("truth-reveal");
+const prefixes=[25,50,100,200,500];
+d.scenarios.forEach(s=>{const e=document.createElement("option");e.value=s.id;e.textContent=s.id.replace(/_/g," · ")+ " ("+s.n+" banks)";scenario.appendChild(e)});
+scenario.value="D_N8_preferred";
+function chart(s,n,p){
+ const counts=p.all_counts;const ids=Object.keys(counts).map(Number).sort((a,b)=>a-b);
+ const W=690,H=366,left=57,right=22,top=30,bottom=52,plotW=W-left-right,plotH=H-top-bottom;
+ let svg='<title>Membership of non-sender banks over '+n+' batches</title>';
+ for(let j=0;j<=5;j++){const fraction=j/5;const y=top+(1-fraction)*plotH;svg+='<line x1="'+left+'" x2="'+(W-right)+'" y1="'+y+'" y2="'+y+'" stroke="#2a3e56" stroke-dasharray="3 8"/><text x="46" y="'+(y+5)+'" text-anchor="end" fill="#92a8c4" font-size="13">'+Math.round(100*fraction)+'%</text>'}
+ const gap=plotW/ids.length,barW=Math.min(48,gap*.67);
+ ids.forEach((id,i)=>{const count=counts[id],value=count/n,x=left+gap*i+(gap-barW)/2, h=plotH*value,y=top+plotH-h;
+ const topBank=id===p.top_candidate, real=reveal.checked&&id===s.preferred;
+ const color=real?"#a68bff":topBank?"#bdfb60":"#3c6d74";
+ svg+='<rect x="'+x+'" y="'+y+'" width="'+barW+'" height="'+h+'" rx="6" fill="'+color+'" opacity=".95"><title>Bank '+id+': '+count+'/'+n+' sets</title></rect>';
+ svg+='<text x="'+(x+barW/2)+'" y="'+(H-23)+'" text-anchor="middle" font-size="'+(ids.length>9?10:13)+'" fill="'+(topBank?"#dfffba":"#b4bfd0")+'">'+id+'</text>';
+ });
+ const baseline=p.null_expected_membership_fraction,y=top+plotH*(1-baseline);
+ svg+='<line x1="'+left+'" x2="'+(W-right)+'" y1="'+y+'" y2="'+y+'" stroke="#f2c683" stroke-width="1.5" stroke-dasharray="5 5"/>';
+ svg+='<text x="'+(W-right-3)+'" y="'+(y-6)+'" fill="#f2c683" font-size="13" text-anchor="end">balanced baseline</text>';
+ $("frequency").setAttribute("viewBox","0 0 "+W+" "+H);$("frequency").innerHTML=svg;
+}
+function update(){
+ const s=d.scenarios.find(x=>x.id===scenario.value);
+ const n=prefixes[Number(slider.value)],p=s.prefixes[String(n)];
+ chart(s,n,p);
+ $("top-bank").textContent="Bank "+p.top_candidate+" · "+p.top_appearance_count+"/"+n;
+ $("test-signal").textContent=p.reject_balanced_model_at_fwer_0_05?"Detectable deviation":"No significant signal";
+ $("test-signal").style.color=p.reject_balanced_model_at_fwer_0_05?"var(--green)":"var(--muted)";
+ $("true-bank").textContent=reveal.checked?(s.preferred?"Bank "+s.preferred:"No preferred bank"):"HIDDEN";
+ $("true-bank").style.color=reveal.checked?"var(--purple)":"var(--muted)";
+ $("prefix-label").textContent=n;
+}
+scenario.addEventListener("change",update);slider.addEventListener("input",update);reveal.addEventListener("change",update);
+$("source-pins").textContent="relayer "+d.sources.relayer+"\nCLI "+d.sources.cli+"\ncontracts "+d.sources.contracts;
+document.querySelectorAll(".reveal").forEach(x=>{if(!("IntersectionObserver" in window)){x.classList.add("show");return}
+const obs=new IntersectionObserver(e=>{for(const item of e)if(item.isIntersecting){item.target.classList.add("show");obs.unobserve(item.target)}},{threshold:.1});obs.observe(x)});
+const hero=document.querySelector(".orbit");
+if(hero&&!matchMedia("(prefers-reduced-motion: reduce)").matches){
+ hero.addEventListener("pointermove",e=>{const r=hero.getBoundingClientRect();const x=(e.clientX-r.left-r.width/2)/r.width,y=(e.clientY-r.top-r.height/2)/r.height;hero.style.transform="rotateY("+(x*5)+"deg) rotateX("+(-y*5)+"deg)"});
+ hero.addEventListener("pointerleave",()=>{hero.style.transform=""});
+}
+update();
+})();
+</script>
+<script src="live-data.js"></script>
+<script src="live-evidence.js"></script>
+<script src="experience.js"></script>
+<script src="polish.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "purpose": "Seven-bank runtime config repair; sensitive values intentionally excluded",
+  "generated_file": "LOCAL_PRIVATE_ONLY",
+  "base_bank": "F",
+  "deployment_override_bank": "G",
+  "resulting_key_count": 50,
+  "critical_completed_fields": [
+    "CTS_DATABASE_CONNECTIONSTRING",
+    "PRIVATE_RELAYER_DATABASE_CONNECTIONSTRING",
+    "RAYLS_NODE_DATABASE_CONNECTIONSTRING",
+    "CTS_GRPC_URL",
+    "PRIVACY_NODE_RPC_URL",
+    "BLOCKCHAIN_CHAIN_ID",
+    "PRIVACY_NODE_CHAIN_ID"
+  ],
+  "reference_deployment_address_keys": 10,
+  "runtime_sha256": "598de73d1638dd5383693326e4b684a0780f6165510b794d0cc79a57eed82bfa"
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "LOCAL_DEVELOPMENT_TLS_CERTIFICATE_FIX_NOT_PUBLIC_CHAIN_EVIDENCE",
+  "original_problem": "G private relayer rejected server certificate because CTS gRPC server lacked cts-g in SAN.",
+  "first_attempt": "A certificate was reissued in cts.crt, the NATS client certificate, rather than server.crt used by the CTS gRPC listener. It did not repair the live TLS endpoint.",
+  "correction": "Restored the original cts.crt, reissued server.crt with cts-g SAN using the existing server.key and local development CA, and restarted kos-g and relayer-g.",
+  "verification": "The live CTS-G server on 127.0.0.1:8086 presented cts-g in its SAN; G relayer subsequently consumed local Hub receipts and processed past Hub blocks.",
+  "tls_server_certificate_before_sha256": "90a27a0f9272b5d5c179a793cbe4a374191e33c017514234042e88c3bbdd250b",
+  "tls_server_certificate_after_sha256": "b121a772a905caf6d8970b362077ce37d54fa7a986c60cec3547514ce882d31d",
+  "client_certificate_restored_sha256": "c285cd563b47666870b5f04e17fe8db87ae9fc2f02069bdac8be9c8663672489",
+  "changes_affect_only_researcher_controlled_lab": true,
+  "sensitive_material_not_in_report": true
+}

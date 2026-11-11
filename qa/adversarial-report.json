@@ -1,0 +1,14 @@
+{
+  "original_evidence_modified": false,
+  "passing_tests": 6,
+  "status": "PASS",
+  "test_scope": "ADVERSARIAL_OFFLINE_INTEGRITY_CHECKS",
+  "tests": {
+    "altered_blind_prediction_rejected": "PASS",
+    "ground_truth_receiver_not_in_set_rejected": "PASS",
+    "incomplete_trial_ledger_rejected": "PASS",
+    "invalid_anonymity_set_rejected": "PASS",
+    "missing_artifact_rejected": "PASS",
+    "observer_mutation_rejected_by_hash": "PASS"
+  }
+}

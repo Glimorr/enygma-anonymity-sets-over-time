@@ -1,0 +1,92 @@
+{
+  "cannot_establish": "No genuine Enygma payment, independently authenticated institutional ledger, or public testnet transaction is established by this check.",
+  "counts": {
+    "checked": 9,
+    "passed": 9
+  },
+  "observed_at_utc": "2026-11-11T10:46:58.778954+00:00",
+  "rows": [
+    {
+      "expected_chain_id": 1337,
+      "height": 2723,
+      "latest_block_hash": "0x59a81a2b3f3ec3937244b9c73ab12e86805d99c37ea12ee22ad9c9767b2da18f",
+      "observed_chain_id": 1337,
+      "rpc": "localhost:3445",
+      "service": "hub",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 12345,
+      "height": 4580,
+      "latest_block_hash": "0x472830476983e10ae10570255e3ac6bf7cf90514c0a521484afd1c0766963b9d",
+      "observed_chain_id": 12345,
+      "rpc": "localhost:8545",
+      "service": "bank-a",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 12346,
+      "height": 4626,
+      "latest_block_hash": "0xcf1f3289995b1b2610ea8077e45b660d3e3d4ba317631d17e93816982ecc9ec4",
+      "observed_chain_id": 12346,
+      "rpc": "localhost:8546",
+      "service": "bank-b",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 12347,
+      "height": 4564,
+      "latest_block_hash": "0x1d0374972d24b9567c2013791a725bda6615200b603f22fa6770182d40111b6e",
+      "observed_chain_id": 12347,
+      "rpc": "localhost:8547",
+      "service": "bank-c",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 12348,
+      "height": 4551,
+      "latest_block_hash": "0x1b188dd90289dde7cb1099a32d764ee948c953a978f3aaf286a6958214ed393c",
+      "observed_chain_id": 12348,
+      "rpc": "localhost:8548",
+      "service": "bank-d",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 12349,
+      "height": 4604,
+      "latest_block_hash": "0x5c3c0722d978c6c302b0231f7d6f0bdfb48502b05ab1584e2a2b4d3b67a8cb86",
+      "observed_chain_id": 12349,
+      "rpc": "localhost:8549",
+      "service": "bank-e",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 12350,
+      "height": 4583,
+      "latest_block_hash": "0x81dd611e5e0f9bc61f78cc73b17583d90dcc9e529c16a782d48f40779c1b2eb5",
+      "observed_chain_id": 12350,
+      "rpc": "localhost:8550",
+      "service": "bank-f",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 12351,
+      "height": 4557,
+      "latest_block_hash": "0xe80d0abf0772e48b98d4d2c3a0b0edd3f0e4b64782b54e5025910d60c5c1e3bd",
+      "observed_chain_id": 12351,
+      "rpc": "localhost:8551",
+      "service": "bank-g",
+      "status": "PASS"
+    },
+    {
+      "expected_chain_id": 7331,
+      "height": 4605,
+      "latest_block_hash": "0xcc15393dab978fd1f189ba5d6d5452d5f41a54af4936e09911d178e545059ec4",
+      "observed_chain_id": 7331,
+      "rpc": "localhost:8845",
+      "service": "public-local",
+      "status": "PASS"
+    }
+  ],
+  "scope": "LOCAL_DEVELOPER_CONTROLLED_RPC_TOPOLOGY_ONLY"
+}

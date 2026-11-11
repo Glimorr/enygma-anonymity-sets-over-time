@@ -1,0 +1,19 @@
+{
+  "blind_prediction_sha256": "332048de3c1c4e9db83c71d6f8a9e8c239d083b6d22d0c2c3e59ec58d494247f",
+  "claims_scope": "OFFLINE_SOURCE_LEVEL_NATIVE_SYNTHETIC_TRAFFIC",
+  "no_live_chain_evidence_in_this_report": true,
+  "null_cases_falsely_flagged": 0,
+  "null_cases_total": 3,
+  "observations": 5000,
+  "preferred_cases_correct": 7,
+  "preferred_cases_total": 7,
+  "source_harness_matches": true,
+  "source_pins": {
+    "rayls-sovereign-cli": "c356f9211b168c643d8f25d26df709af7dc4dd92",
+    "rayls-sovereign-contracts": "ed8863885c8ed5d5d317d47a34c063907192687a",
+    "rayls-sovereign-relayer": "b01b427de4cfc2ac66e75eba0d5070b73a3b137c"
+  },
+  "status": "PASS",
+  "tracked_relayer_source_unmodified": true,
+  "truth_records": 5000
+}

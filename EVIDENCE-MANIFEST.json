@@ -1,0 +1,324 @@
+{
+  "claim_scope": "NATIVE_SOURCE_PLUS_RESEARCHER_CONTROLLED_LOCAL_LEDGER",
+  "files": {
+    ".github/workflows/evidence.yml": {
+      "bytes": 2004,
+      "sha256": "58ab1102988d003fe8aff985562a14b728c2323f545194753f578ff6b5c9429d"
+    },
+    ".github/workflows/pages.yml": {
+      "bytes": 794,
+      "sha256": "6b868a1a9a552fd13401725f089f7538e06f56e48b60bd3891eb7d4f3b36f44a"
+    },
+    ".gitignore": {
+      "bytes": 677,
+      "sha256": "8b75654cae000cc41746e7e3425a4edde2aabe87575f4b690432f6318de97824"
+    },
+    "README.md": {
+      "bytes": 12832,
+      "sha256": "9d17b0fedb0ead5a745bf4d0d8e47d5fbfefd60a633b9da88e28ae14f819959d"
+    },
+    "analysis/analyze_public.py": {
+      "bytes": 5947,
+      "sha256": "f90176d07f5b3516afd33bf9b2ace5a7c6c272b4ce04719966bf049365db1447"
+    },
+    "analysis/blind_analysis_console.log": {
+      "bytes": 723,
+      "sha256": "94d9b041e621f459e53227e44f77793e5fe913e0c4424ef034cd4567e7449f8c"
+    },
+    "analysis/blind_predictions.json": {
+      "bytes": 44574,
+      "sha256": "332048de3c1c4e9db83c71d6f8a9e8c239d083b6d22d0c2c3e59ec58d494247f"
+    },
+    "analysis/blind_predictions.sha256": {
+      "bytes": 98,
+      "sha256": "51b70ab8ebcf7241efbee67f88f6ad5e9f3cd3553595705349d7f066870e2747"
+    },
+    "analysis/ground_truth_scoring.json": {
+      "bytes": 12535,
+      "sha256": "81f20967770285b8f9d8ecb237eca4ed684eacfa2f560fd49ed3c26da20085fb"
+    },
+    "analysis/power_preflight.py": {
+      "bytes": 1944,
+      "sha256": "8390445a10dad8361ebbe7483f56115bf23577d18ad146368f7d77a5580aa320"
+    },
+    "analysis/score_private.py": {
+      "bytes": 6235,
+      "sha256": "6469026a71d78ab51eeab4dad3478bc7502355ba19eeab37b05a7e1b5e8c5a4b"
+    },
+    "analysis/scoring_console.log": {
+      "bytes": 875,
+      "sha256": "291b25ec901019f6045a86f98adadce7a1b5cd44fdb1cfae179fc13bdc1a40b0"
+    },
+    "evidence/local-live-seven/receipt-reconciliation.json": {
+      "bytes": 3053,
+      "sha256": "3c72dcc72a43a29841f574d62401f11038aa7caec9271ce5c42bedef3c36a640"
+    },
+    "evidence/local-live-seven/receipt-reconciliation.sha256": {
+      "bytes": 94,
+      "sha256": "070a07550d01d55d756f792acc73f7a19f8a2aeb0bd5ae47b9d8a3fb44130761"
+    },
+    "evidence/local-rpc/live-seven-decoded-events.json": {
+      "bytes": 127675,
+      "sha256": "ab17d4ae1b315786f9c9b96752a569ba98c2d8ed70f295822e7baf811d9e6b69"
+    },
+    "evidence/local-rpc/live-seven-preregistered-trial-state.json": {
+      "bytes": 268983,
+      "sha256": "5115d4ad9d02fcbf1b8c7c8a82c8ccb57babed78a4352e050fff0b6478d6c599"
+    },
+    "evidence/local-rpc/topology-report.json": {
+      "bytes": 2878,
+      "sha256": "b37244e4b14a2144428087189dada1e5120d86e63bb50508bb956f668185d32b"
+    },
+    "evidence/local-rpc/topology-report.sha256": {
+      "bytes": 87,
+      "sha256": "ec07d83c8d4723af8afdc7302eed11dd20a1ea4f8880bef486aa9c79df04bdaf"
+    },
+    "evidence/native/ground_truth_private.csv": {
+      "bytes": 183737,
+      "sha256": "eaed525ba06f122e2b8bbeb252e46cec181f495629cf07b5649fb0b2fd60a7c9"
+    },
+    "evidence/native/hub_observer_only.csv": {
+      "bytes": 269965,
+      "sha256": "c92edd064396841a31a8fc82387eec9aa3addf8b891738b5386b691814bcf7ff"
+    },
+    "evidence/native/native_scenario_metadata.json": {
+      "bytes": 1689,
+      "sha256": "5a0acd458b0a96e2440617e6b882cce47fd2ffb813c44cdab44160f65d5f5d8d"
+    },
+    "evidence/native/native_test_console.log": {
+      "bytes": 5743,
+      "sha256": "f61987012eccceabd25b2e074081212867432c1cbfcb3b1b83c2829f749cd972"
+    },
+    "evidence/native/observer.sha256": {
+      "bytes": 104,
+      "sha256": "178c9965129a5f4b6a0a82dc07eea91573cabac7eeae4335723d859c380d5b00"
+    },
+    "evidence/native/truth.sha256": {
+      "bytes": 107,
+      "sha256": "b28999ee582ea3c4a0e8f8f8c6289f8c00c1a7a78edc7cabdc9a01e7e625aa5c"
+    },
+    "evidence/offline-compose/cts-g-certificate-provenance.json": {
+      "bytes": 1157,
+      "sha256": "7b32ffe54a8e823822f88a372a5adfc73f7f5423d0997d4f07898ee5019113b7"
+    },
+    "evidence/offline-compose/g_runtime_config_repair_report.json": {
+      "bytes": 621,
+      "sha256": "c6c23920e02ac0f988cb12d74d97b3931dc6a8aa2669e617855043182e36f158"
+    },
+    "evidence/offline-compose/offline_compose_console.log": {
+      "bytes": 233,
+      "sha256": "c696d8a2d9df602e124b7ee74e8b79e9c57e027440e462c375a91b336d42d03a"
+    },
+    "evidence/offline-compose/seven_member_service_graph.json": {
+      "bytes": 3408,
+      "sha256": "9155a1e752bc74eab1335e4ac9f11fb6c9340f07275a633885a34c26347d015c"
+    },
+    "experiments/cli-seven-extension.patch": {
+      "bytes": 4766,
+      "sha256": "999267af7c866c1ccea850ddd246462613562b38ecbe912fd2f2a0201333cfb5"
+    },
+    "experiments/cli-seven-extension.sha256": {
+      "bytes": 104,
+      "sha256": "5289c3b53a198fd80cbf4cd85e92f619759ac8a7a33a00a3171b414e75c77e4f"
+    },
+    "experiments/cli_seven_static_test.go": {
+      "bytes": 2062,
+      "sha256": "e7d9be0ed01c399889f4730a0abe09200ab88f27b7d2326d87531c76e4c31e5f"
+    },
+    "experiments/decode_live_events.cjs": {
+      "bytes": 2730,
+      "sha256": "7a40ca759fa40e3e527d2ee743dcd0a723569297a6e75522d6d4e9ef17e5f23c"
+    },
+    "experiments/hardhat-seven.patch": {
+      "bytes": 566,
+      "sha256": "083d876d5243da86b09a48b7ec8bf61a7b1b6f55681ec13e4a932e03ae6a6807"
+    },
+    "experiments/hardhat-seven.sha256": {
+      "bytes": 200,
+      "sha256": "d84bf02bbd417e90a1d56c5b8255c31b7cc30241b4a07399afebcaf092b59f48"
+    },
+    "experiments/hardhat.config.seven.ts": {
+      "bytes": 16460,
+      "sha256": "193f4f325744df95dd97673882fa72895c95d453951e5775e47e8420259ada37"
+    },
+    "experiments/live_seven_trial.cjs": {
+      "bytes": 13750,
+      "sha256": "999e642f719a0d79e7442c7c7bfc4901bfa5a4bd3200d4dfe5c5e249440c2c43"
+    },
+    "experiments/observer_w2_test.go": {
+      "bytes": 6229,
+      "sha256": "56328018c39e5245d6071bafcb9f5ad2d919b7855aa24ff5abd9f381ea9927ec"
+    },
+    "experiments/rayls-seven-binary.sha256": {
+      "bytes": 107,
+      "sha256": "754a51aa6a581f4fa81bea8e4e4c08970ec490289f7e851ec51acec7bbf212d1"
+    },
+    "experiments/read_only_g_settlement.cjs": {
+      "bytes": 1740,
+      "sha256": "4a697e89d30c2c6e5f6e28cda8f9dc4e3f91880621a19c47af344d63d0b7fbcc"
+    },
+    "figures/01-anonymity-set-model.svg": {
+      "bytes": 4071,
+      "sha256": "acf93ecdca68c910d1de8eb510119f5db1d177b232d94a567b4991a82c08e68b"
+    },
+    "figures/02-native-inclusion-measurements.svg": {
+      "bytes": 5486,
+      "sha256": "04155d72f603c2d2a593892316759753e7c5644a788da4f060f759934c381942"
+    },
+    "figures/03-controls-and-blind-results.svg": {
+      "bytes": 8134,
+      "sha256": "ec078c76f17b6896ff19b411f56cea27789ae5e4a258bd312558920d9442edbe"
+    },
+    "figures/04-evidence-boundaries.svg": {
+      "bytes": 5131,
+      "sha256": "5b172548844901e643c82b4e1177906b2aca9cee21491805d5febb40a9238dc1"
+    },
+    "figures/05-seven-bank-settlement.svg": {
+      "bytes": 5004,
+      "sha256": "86989c2ab5c28aed3d007566321381a3b6f078c64dd9132849867052309ce76d"
+    },
+    "figures/render_figures.py": {
+      "bytes": 7615,
+      "sha256": "5e048802fa2358a710412fdfa24e633e2ef7358d7632efe9b1e3d7341bac5670"
+    },
+    "figures/render_live_settlement.py": {
+      "bytes": 6296,
+      "sha256": "60ffbbd0807da0156d05d4ffa8b432976a0a1025996b1fc45813e52288740218"
+    },
+    "qa/adversarial-report.json": {
+      "bytes": 448,
+      "sha256": "16d4ae84963096dca5480658d86de3a955394afa563721fad0da864ecff352d0"
+    },
+    "qa/adversarial_checks.py": {
+      "bytes": 5209,
+      "sha256": "4c4f240cc77fa3a312c2b11cb3e5beb0f3f58785dc19fe9be6f86e6be69f18f8"
+    },
+    "qa/bootstrap_sources.py": {
+      "bytes": 3216,
+      "sha256": "d67ba7728a368684ba0835ce147295409db567e6670c253c475979736a296602"
+    },
+    "qa/check_manifest.py": {
+      "bytes": 2257,
+      "sha256": "7357f73a3af8396ef12b54f51d34b6fe7cde1da1a52e15ddee0f13e2d3fac889"
+    },
+    "qa/native-verification-report.json": {
+      "bytes": 732,
+      "sha256": "b61a0d97252421353649d4b14ac3baaecb9e83a335894430e45babd29478cb03"
+    },
+    "qa/rpc_evidence_probe.py": {
+      "bytes": 2665,
+      "sha256": "e452fc59a1b9e687f806bae72a5bae86403008f0b2e0123a018ced069a6f6409"
+    },
+    "qa/showcase_readonly.py": {
+      "bytes": 3375,
+      "sha256": "1cbba1fb32707398f0e90aee11c1d1ecc7ca1ddc7a1440be65b7a38c91137bc4"
+    },
+    "qa/verify_local_live.py": {
+      "bytes": 9982,
+      "sha256": "58ac06607b5738043fb3b4d127db39cf9baa6ba3020cbc4e3222beff22c2041a"
+    },
+    "qa/verify_native.py": {
+      "bytes": 8080,
+      "sha256": "de2ee93b908108ec7449ae1da672065d5e34afd229f4bbfc39fb61061a72c911"
+    },
+    "qa/verify_public.py": {
+      "bytes": 6809,
+      "sha256": "898415362dbe6c56289893078f440a47ed2220d63aae34140d9bd777238d6c0f"
+    },
+    "research/ANALYSIS-PLAN-v1.md": {
+      "bytes": 2157,
+      "sha256": "591bdfeac5febf261ca502d8881064034cb79216c8cd6b539b9f1aba2cf7b5cb"
+    },
+    "research/ANALYSIS-PLAN-v1.sha256": {
+      "bytes": 95,
+      "sha256": "f00b79cd519d514aeb5267e98b1a030f2b26f8288b074f7b7dcb5a1380f12ab7"
+    },
+    "research/LIVE-SEVEN-PROTOCOL-v1.md": {
+      "bytes": 3816,
+      "sha256": "41f0f50042ad89987dbd71243ef2283de1ccfa36e54ce3d6d9dfce8dad3ee6f3"
+    },
+    "research/LIVE-SEVEN-PROTOCOL-v1.sha256": {
+      "bytes": 101,
+      "sha256": "6e1fd4a3b9cc5fa83ef6634493629260cf951c8f02eac320d1fea21923fa1bf3"
+    },
+    "research/POWER-PREFLIGHT.json": {
+      "bytes": 2392,
+      "sha256": "189528d704dd7f770c122a0b8715b5f3e25f4e14f2a7c382193a447734d3fd48"
+    },
+    "research/PROTOCOL-v1.md": {
+      "bytes": 5834,
+      "sha256": "fb6ef08be1b8b413ca3fea868380bd5bd196fcf298d5b52c650a917d254693fd"
+    },
+    "research/PROTOCOL-v1.sha256": {
+      "bytes": 90,
+      "sha256": "42e24cce7f87fc0b9af79c58aa27cbdd5d573d9a328e646a1fb95289bd99a337"
+    },
+    "site/assets/01-anonymity-set-model.svg": {
+      "bytes": 4071,
+      "sha256": "acf93ecdca68c910d1de8eb510119f5db1d177b232d94a567b4991a82c08e68b"
+    },
+    "site/assets/02-native-inclusion-measurements.svg": {
+      "bytes": 5486,
+      "sha256": "04155d72f603c2d2a593892316759753e7c5644a788da4f060f759934c381942"
+    },
+    "site/assets/03-controls-and-blind-results.svg": {
+      "bytes": 8134,
+      "sha256": "ec078c76f17b6896ff19b411f56cea27789ae5e4a258bd312558920d9442edbe"
+    },
+    "site/assets/04-evidence-boundaries.svg": {
+      "bytes": 5131,
+      "sha256": "5b172548844901e643c82b4e1177906b2aca9cee21491805d5febb40a9238dc1"
+    },
+    "site/assets/05-seven-bank-settlement.svg": {
+      "bytes": 5004,
+      "sha256": "86989c2ab5c28aed3d007566321381a3b6f078c64dd9132849867052309ce76d"
+    },
+    "site/assets/rayls-symbol-gradient.png": {
+      "bytes": 17592,
+      "sha256": "a294227251fcf625fcf8ac2bb08fbdb1b17a37142a6b272e46504c6983e6ed6d"
+    },
+    "site/data.js": {
+      "bytes": 27940,
+      "sha256": "24c8b1b7c7a41bc038ffa9997735c386e14257f715f65a17f057a20a3254f3ad"
+    },
+    "site/experience.css": {
+      "bytes": 18746,
+      "sha256": "04d97f28eb9170a2ad954a38d9824925f317d010cd46cc539a2078c19020db8a"
+    },
+    "site/experience.js": {
+      "bytes": 7669,
+      "sha256": "10578e573e8d65322c097403e6fcad7d6e721a1a852ef46211a18a4e3eb3010b"
+    },
+    "site/index.html": {
+      "bytes": 35447,
+      "sha256": "0a3cddfd9ee0079c2153fb0e19631f33b4a92b7b51cdd9a0074190c806ca00ee"
+    },
+    "site/live-data.js": {
+      "bytes": 1150,
+      "sha256": "7316fb4955eacbf086bc0223ee6fbe89aa97aa0bdc2193da15f151056fcc7143"
+    },
+    "site/live-evidence.js": {
+      "bytes": 3079,
+      "sha256": "d8fa1f0891514c097b4ddcbdad8e418f71a952f8812de3c134daec19db6f5d70"
+    },
+    "site/make_data.py": {
+      "bytes": 2095,
+      "sha256": "e2c9095e872c33803d5f392b4a150a8e2b05c84de6233332d6ebb83bbb32aa97"
+    },
+    "site/make_live_data.py": {
+      "bytes": 1448,
+      "sha256": "742be86e33bb58d9f1f0030468e127c3becf797dcb2f3dc497a01f15fc14b1dc"
+    },
+    "site/polish.css": {
+      "bytes": 9473,
+      "sha256": "1daa3021a8c7a12ff42162f3309d548d332555dbc36c7d97c81c92823fbde754"
+    },
+    "site/polish.js": {
+      "bytes": 4317,
+      "sha256": "adef6dd1089c33af4ab08c35d642a9174854270d6b9bc711ca56c97f29a9c5c0"
+    }
+  },
+  "files_merkle_equivalent_sha256": "336d751b7ca50bfcb60467c53bff9a397dd68c070c9b605bd9a335653e0592cb",
+  "publication_state": "STAGED_NOT_PUBLISHED",
+  "schema_version": 1
+}

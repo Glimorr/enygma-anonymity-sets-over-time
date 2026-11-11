@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Local A to B and A to G payment settlement paths: both finally settled, but G missed the preregistered deadline" width="1200" height="680" viewBox="0 0 1200 680">
+<defs><linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b1531"/><stop offset=".65" stop-color="#090713"/><stop offset="1" stop-color="#1b1232"/></linearGradient><filter id="blur5"><feGaussianBlur stdDeviation="15"/></filter><linearGradient id="line5" x1="0" x2="1"><stop stop-color="#aff6d9"/><stop offset="1" stop-color="#ecfb3e"/></linearGradient></defs>
+<rect width="1200" height="680" fill="url(#bg5)"/>
+<circle cx="570" cy="320" r="240" fill="#825bc4" opacity=".12" filter="url(#blur5)"/>
+<rect x="48" y="42" width="5" height="43" rx="2" fill="#ecfb3e"/>
+<text x="68" y="73" font-family="Arial,sans-serif" font-weight="800" font-size="31" fill="#f6f4ff">Two local payments. One delayed destination.</text>
+<text x="69" y="109" font-family="Arial,sans-serif" font-size="17" fill="#b8afd0">Original receipts + independent RPC reconciliation in a seven-bank laboratory</text>
+<path d="M48 145 H1152" stroke="#51406c"/>
+<rect x="60" y="190" width="293" height="326" rx="19" fill="#1b1530" stroke="#9d7fcd" stroke-width="1.5"/>
+<text x="87" y="230" font-family="Arial,sans-serif" font-size="16" font-weight="800" fill="#b69bf6">BANK A / SENDER</text>
+<text x="87" y="292" font-family="Arial,sans-serif" font-size="52" font-weight="850" fill="#f6f4ff">5,000</text>
+<text x="90" y="316" font-family="Arial,sans-serif" font-size="14" fill="#b8afd0">minted smallest units</text>
+<path d="M87 345 H327" stroke="#5d487e"/>
+<text x="87" y="395" font-family="Arial,sans-serif" font-size="17" fill="#b8afd0">Final source balance</text>
+<text x="87" y="455" font-family="Arial,sans-serif" font-size="52" font-weight="850" fill="#ecfb3e">4,998</text>
+<circle cx="370" cy="350" r="7" fill="#ecfb3e"/>
+<path d="M355 350 H444" stroke="#b69bf6" stroke-width="3" stroke-linecap="round"/>
+<path d="M436 344 L447 350 L436 356" stroke="#ecfb3e" stroke-width="2" fill="none"/>
+<rect x="453" y="217" width="289" height="262" rx="21" fill="#201434" stroke="#b69bf6" stroke-width="2"/>
+<circle cx="596" cy="328" r="99" fill="#9e6cf418" stroke="#ac80ec70"/>
+<circle cx="596" cy="328" r="78" fill="#24183e" stroke="#ecfb3e70" stroke-dasharray="8 9"/>
+<text x="596" y="311" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="800" fill="#aff6d9" letter-spacing="2">LOCAL HUB</text>
+<text x="596" y="351" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="850" fill="#f6f4ff">ENYGMA</text>
+<text x="596" y="387" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#b8afd0">6 observed batches</text>
+<text x="596" y="406" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#b8afd0">36 encrypted envelopes</text>
+<path d="M744 283 L807 283 L836 260" stroke="#aff6d9" stroke-width="3" fill="none"/>
+<path d="M826 258 L838 260 L834 272" stroke="#aff6d9" stroke-width="2" fill="none"/>
+<path d="M744 399 L801 399 L836 418" stroke="#ecfb3e" stroke-width="3" fill="none"/>
+<path d="M829 406 L839 419 L824 421" stroke="#ecfb3e" stroke-width="2" fill="none"/>
+<rect x="842" y="182" width="302" height="166" rx="18" fill="#16252b" stroke="#aff6d9" stroke-width="1.5"/>
+<text x="866" y="219" font-family="Arial,sans-serif" font-weight="800" font-size="15" fill="#aff6d9">BANK B / DESTINATION</text>
+<text x="868" y="264" font-family="Arial,sans-serif" font-weight="850" font-size="40" fill="#f6f4ff">1 <tspan font-size="17" fill="#b8afd0">unit</tspan></text>
+<text x="868" y="304" font-family="Arial,sans-serif" font-size="16" fill="#ecfb3e">SETTLED IN OBSERVATION WINDOW</text>
+<text x="868" y="330" font-family="monospace" font-size="11" fill="#b8afd0">TX  0xd686004d0c…44771d</text>
+<rect x="842" y="370" width="302" height="203" rx="18" fill="#292033" stroke="#ffcc92" stroke-width="1.5"/>
+<text x="866" y="407" font-family="Arial,sans-serif" font-weight="800" font-size="15" fill="#ffcc92">BANK G / LATE SETTLEMENT</text>
+<text x="868" y="447" font-family="Arial,sans-serif" font-weight="850" font-size="40" fill="#f6f4ff">1 <tspan font-size="17" fill="#b8afd0">unit</tspan></text>
+<text x="868" y="477" font-family="Arial,sans-serif" font-size="15" fill="#ffcc92">INITIAL TIMEOUT • NO REPLAY</text>
+<text x="868" y="499" font-family="Arial,sans-serif" font-size="14" fill="#ecfb3e">TLS CERTIFICATE CORRECTED</text>
+<text x="868" y="533" font-family="monospace" font-size="11" fill="#b8afd0">TX  0x96a98deee0…d4817c</text>
+<path d="M55 609 H1147" stroke="#53446d"/>
+<text x="62" y="641" font-family="Arial,sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">RECONCILED 5,000 / 5,000</text>
+<text x="1143" y="640" text-anchor="end" font-family="Arial,sans-serif" font-size="14" fill="#b8afd0">RESEARCHER-CONTROLLED LOCAL BLOCKCHAIN • NOT RAYLS PUBLIC TESTNET</text>
+</svg>

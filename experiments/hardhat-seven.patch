@@ -1,0 +1,19 @@
+diff --git a/hardhat.config.ts b/hardhat.config.ts
+index 2ea64f4..0a84b13 100644
+--- a/hardhat.config.ts
++++ b/hardhat.config.ts
+@@ -301,6 +301,14 @@ const config: HardhatUserConfig = {
+         chainId: 12350,
+         gasPrice: 0
+       },
++      // W2 local-only seven-member Hardhat network extension.
++      localG: {
++        url: 'http://pn-g:8551',
++        accounts: ['ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80'],
++        timeout: 80000,
++        chainId: 12351,
++        gasPrice: 0
++      },
+     };
+ 
+     // Add custom_pnh    };

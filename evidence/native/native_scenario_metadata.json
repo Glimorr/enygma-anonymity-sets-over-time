@@ -1,0 +1,77 @@
+{
+  "evidence_type": "NATIVE_SOURCE_FUNCTION_WITH_SYNTHETIC_TRAFFIC",
+  "source_function": "fulfillAnonimitySet",
+  "truth_seed": 20261111,
+  "scenarios": [
+    {
+      "scenario": "A_N6_balanced",
+      "participants": 6,
+      "observations": 500,
+      "traffic_model": "balanced",
+      "k": 6
+    },
+    {
+      "scenario": "B_N7_preferred",
+      "participants": 7,
+      "observations": 500,
+      "traffic_model": "preferred60",
+      "k": 6
+    },
+    {
+      "scenario": "C_N8_balanced",
+      "participants": 8,
+      "observations": 500,
+      "traffic_model": "balanced",
+      "k": 6
+    },
+    {
+      "scenario": "D_N8_preferred",
+      "participants": 8,
+      "observations": 500,
+      "traffic_model": "preferred60",
+      "k": 6
+    },
+    {
+      "scenario": "E_N8_positive",
+      "participants": 8,
+      "observations": 500,
+      "traffic_model": "preferred100",
+      "k": 6
+    },
+    {
+      "scenario": "F_N8_mixedzero",
+      "participants": 8,
+      "observations": 500,
+      "traffic_model": "preferred60_zero25",
+      "k": 6
+    },
+    {
+      "scenario": "G_N8_multireceiver",
+      "participants": 8,
+      "observations": 500,
+      "traffic_model": "preferred60_two",
+      "k": 6
+    },
+    {
+      "scenario": "H_N10_preferred",
+      "participants": 10,
+      "observations": 500,
+      "traffic_model": "preferred60",
+      "k": 6
+    },
+    {
+      "scenario": "I_N20_preferred",
+      "participants": 20,
+      "observations": 500,
+      "traffic_model": "preferred60",
+      "k": 6
+    },
+    {
+      "scenario": "J_N8_zeroonly",
+      "participants": 8,
+      "observations": 500,
+      "traffic_model": "zeroonly",
+      "k": 6
+    }
+  ]
+}

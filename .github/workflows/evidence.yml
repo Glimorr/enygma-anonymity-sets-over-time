@@ -1,0 +1,52 @@
+name: Independent Enygma evidence verification
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  archived-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - name: Verify all manifest paths and digests
+        run: python3 qa/check_manifest.py
+      - name: Independently recompute all 5,000 archived observations
+        run: python3 qa/verify_public.py
+      - name: Independently decode local Hub receipts without live RPC
+        run: python3 qa/verify_local_live.py --check-only
+      - name: Test tamper, omission and corruption handling
+        run: python3 qa/adversarial_checks.py
+      - name: Verify integrity again after adversarial attempts
+        run: python3 qa/check_manifest.py
+
+  pinned-native-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - uses: actions/setup-go@v6
+        with:
+          go-version: '1.26.x'
+          cache: false
+      - name: Fetch and pin official Rayls revisions, apply declared patches
+        run: python3 qa/bootstrap_sources.py
+      - name: Verify archived native evidence and untouched relayer code
+        run: python3 qa/verify_native.py
+      - name: Run production anonymity-set selection function directly
+        env:
+          ENYGMA_W2_OUTPUT: ${{ runner.temp }}/w2-reproduction
+        working-directory: source/rayls-sovereign-relayer
+        run: go test ./enygma/service -run '^TestW2ObserverSelection$' -count=1 -timeout=25m -v
+      - name: Reproduce seven-participant offline Compose generator test
+        env:
+          ENYGMA_W2_COMPOSE_OUT: ${{ runner.temp }}/w2-seven-graph
+        working-directory: source/rayls-sovereign-cli
+        run: go test ./internal/docker -run '^TestW2SevenOfflineCompose$' -count=1 -timeout=15m -v

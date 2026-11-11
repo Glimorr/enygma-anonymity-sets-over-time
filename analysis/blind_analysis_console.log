@@ -1,0 +1,12 @@
+BLIND_ANALYSIS_COMPLETE
+A_N6_balanced: top=1002 count=500/500 p_family=1.0 signal=False
+B_N7_preferred: top=1007 count=467/500 p_family=9.2e-11 signal=True
+C_N8_balanced: top=1005 count=374/500 p_family=0.359610573789 signal=False
+D_N8_preferred: top=1005 count=433/500 p_family=0.0 signal=True
+E_N8_positive: top=1002 count=500/500 p_family=0.0 signal=True
+F_N8_mixedzero: top=1008 count=415/500 p_family=8.533e-09 signal=True
+G_N8_multireceiver: top=1008 count=433/500 p_family=0.0 signal=True
+H_N10_preferred: top=1002 count=397/500 p_family=0.0 signal=True
+I_N20_preferred: top=1012 count=347/500 p_family=0.0 signal=True
+J_N8_zeroonly: top=1004 count=369/500 p_family=0.910076124824 signal=False
+GROUND_TRUTH_NOT_READ

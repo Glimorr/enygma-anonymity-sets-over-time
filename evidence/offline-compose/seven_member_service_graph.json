@@ -1,0 +1,172 @@
+{
+  "evidence_type": "OFFLINE_SEVEN_MEMBER_COMPOSE_STRUCTURE",
+  "participants": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+  ],
+  "service_count": 38,
+  "services": [
+    "audit-explorer",
+    "certs-init",
+    "contracts",
+    "governance-api",
+    "governance-flagger",
+    "governance-listener",
+    "kos-a",
+    "kos-b",
+    "kos-c",
+    "kos-d",
+    "kos-e",
+    "kos-f",
+    "kos-g",
+    "nats",
+    "postgres",
+    "privacy-node-a",
+    "privacy-node-a-init",
+    "privacy-node-b",
+    "privacy-node-b-init",
+    "privacy-node-c",
+    "privacy-node-c-init",
+    "privacy-node-d",
+    "privacy-node-d-init",
+    "privacy-node-e",
+    "privacy-node-e-init",
+    "privacy-node-f",
+    "privacy-node-f-init",
+    "privacy-node-g",
+    "privacy-node-g-init",
+    "private-network-hub",
+    "proofs-api",
+    "relayer-a",
+    "relayer-b",
+    "relayer-c",
+    "relayer-d",
+    "relayer-e",
+    "relayer-f",
+    "relayer-g"
+  ],
+  "host_ports": {
+    "audit-explorer": [
+      "127.0.0.1:8181:80"
+    ],
+    "contracts": [
+      "127.0.0.1:7000:7000"
+    ],
+    "governance-api": [
+      "127.0.0.1:9100:8080",
+      "127.0.0.1:4030:4030"
+    ],
+    "governance-flagger": [
+      "127.0.0.1:9102:8082",
+      "127.0.0.1:4032:4032"
+    ],
+    "governance-listener": [
+      "127.0.0.1:9101:8081",
+      "127.0.0.1:4031:4031"
+    ],
+    "kos-a": [
+      "127.0.0.1:8080:8080",
+      "127.0.0.1:8090:8090",
+      "127.0.0.1:4000:4000"
+    ],
+    "kos-b": [
+      "127.0.0.1:8081:8080",
+      "127.0.0.1:8091:8090",
+      "127.0.0.1:4001:4001"
+    ],
+    "kos-c": [
+      "127.0.0.1:8082:8080",
+      "127.0.0.1:8092:8090",
+      "127.0.0.1:4002:4002"
+    ],
+    "kos-d": [
+      "127.0.0.1:8083:8080",
+      "127.0.0.1:8093:8090",
+      "127.0.0.1:4003:4003"
+    ],
+    "kos-e": [
+      "127.0.0.1:8084:8080",
+      "127.0.0.1:8094:8090",
+      "127.0.0.1:4004:4004"
+    ],
+    "kos-f": [
+      "127.0.0.1:8085:8080",
+      "127.0.0.1:8095:8090",
+      "127.0.0.1:4005:4005"
+    ],
+    "kos-g": [
+      "127.0.0.1:8086:8080",
+      "127.0.0.1:8096:8090",
+      "127.0.0.1:4006:4006"
+    ],
+    "nats": [
+      "127.0.0.1:4222:4222",
+      "127.0.0.1:8222:8222"
+    ],
+    "postgres": [
+      "127.0.0.1:5432:5432"
+    ],
+    "privacy-node-a": [
+      "127.0.0.1:8545:8545"
+    ],
+    "privacy-node-b": [
+      "127.0.0.1:8546:8546"
+    ],
+    "privacy-node-c": [
+      "127.0.0.1:8547:8547"
+    ],
+    "privacy-node-d": [
+      "127.0.0.1:8548:8548"
+    ],
+    "privacy-node-e": [
+      "127.0.0.1:8549:8549"
+    ],
+    "privacy-node-f": [
+      "127.0.0.1:8550:8550"
+    ],
+    "privacy-node-g": [
+      "127.0.0.1:8551:8551"
+    ],
+    "private-network-hub": [
+      "127.0.0.1:3445:3445"
+    ],
+    "proofs-api": [
+      "127.0.0.1:3003:3003"
+    ],
+    "relayer-a": [
+      "127.0.0.1:9000:9000",
+      "127.0.0.1:4010:4010"
+    ],
+    "relayer-b": [
+      "127.0.0.1:9001:9001",
+      "127.0.0.1:4011:4011"
+    ],
+    "relayer-c": [
+      "127.0.0.1:9002:9002",
+      "127.0.0.1:4012:4012"
+    ],
+    "relayer-d": [
+      "127.0.0.1:9003:9003",
+      "127.0.0.1:4013:4013"
+    ],
+    "relayer-e": [
+      "127.0.0.1:9004:9004",
+      "127.0.0.1:4014:4014"
+    ],
+    "relayer-f": [
+      "127.0.0.1:9005:9005",
+      "127.0.0.1:4015:4015"
+    ],
+    "relayer-g": [
+      "127.0.0.1:9006:9006",
+      "127.0.0.1:4016:4016"
+    ]
+  },
+  "deployed": false,
+  "no_live_hub_state": true
+}
