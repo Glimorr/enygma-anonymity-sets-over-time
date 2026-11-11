@@ -57,6 +57,12 @@ def main():
   print("ROOT SHA-256    :",m["files_merkle_equivalent_sha256"])
   print("EVIDENCE SCOPE  :",m["claim_scope"])
   print("LOCAL TESTS     :",j("qa/adversarial-report.json")["passing_tests"],"adversarial conditions (see report)")
-  print("TESTNET ANCHOR  : PENDING (do not label this as on-chain)")
+  anchor=R/"site/public-anchor.json"
+  if anchor.exists():
+   record=json.loads(anchor.read_text())
+   verified=record.get("state")=="confirmed" and record.get("commitment")=="0x"+m["files_merkle_equivalent_sha256"]
+   print("TESTNET ANCHOR  :",record.get("transaction_hash") if verified else "NOT MATCHING THIS MANIFEST")
+  else:
+   print("TESTNET ANCHOR  : NO CONFIRMED PUBLIC ANNEX AVAILABLE")
   if not good:raise SystemExit(1)
 if __name__=="__main__":main()

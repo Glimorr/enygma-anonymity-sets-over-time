@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "scope": "STANDALONE_OFFLINE_STATIC_SITE",
+  "html_ids": 37,
+  "links_to_local_assets": 17,
+  "figure_count": 6,
+  "hub_mined_batches": 6,
+  "hub_encrypted_event_envelopes": 36,
+  "receipt_rechecks": 15,
+  "source_data_sha256": "7316fb4955eacbf086bc0223ee6fbe89aa97aa0bdc2193da15f151056fcc7143",
+  "site_runtime_asset_bytes": 192398,
+  "javascript_network_request_dependencies": 0,
+  "reduced_motion": true,
+  "public_rayls_testnet_commitment": "PENDING"
+}

@@ -8,7 +8,7 @@
 
 
 
-**Current evidence status:** A pinned, unmodified Rayls Go relayer function was exercised under ten controlled synthetic payment schedules. It generated 5,000 authentic native-function outputs. Blind membership-frequency analysis identified the preferred receiver in all seven positive scenarios and rejected none of the three null controls. **These are native source-level observations, not blockchain transaction receipts or proof of a vulnerability in a production Rayls network.** The seven-bank local stack now has six mined Hub anonymity-set batches, 36 encrypted event envelopes, 15 receipt-to-fresh-RPC checks, and a reconciled 5,000-unit trial. G settled late after the original timeout. A public Rayls Testnet commitment is still pending.
+**Current evidence status:** A pinned, unmodified Rayls Go relayer function was exercised under ten controlled synthetic payment schedules. It generated 5,000 authentic native-function outputs. Blind membership-frequency analysis identified the preferred receiver in all seven positive scenarios and rejected none of the three null controls. **These are native source-level observations, not blockchain transaction receipts or proof of a vulnerability in a production Rayls network.** The seven-bank local stack now has six mined Hub anonymity-set batches, 36 encrypted event envelopes, 15 receipt-to-fresh-RPC checks, and a reconciled 5,000-unit trial. G settled late after the original timeout. A retrospective public Rayls Testnet SHA-256 archive anchor is recorded separately in site/public-anchor.json when mined.
 
 ## Research question and answer
 
@@ -64,6 +64,8 @@ From a clean repository checkout:
 
 ```bash
 python3 qa/check_manifest.py
+python3 qa/check_site.py --check-only
+python3 qa/check_anchor.py --optional
 python3 qa/verify_public.py
 python3 qa/adversarial_checks.py
 python3 analysis/analyze_public.py \
@@ -96,7 +98,7 @@ Here `k=min(N,6)`, `N` is the number of registered participants, and `r_i` is th
 
 The observer-only estimator ranks candidates by public membership frequency, with a fixed tie-break. Balanced-model significance uses a one-sided binomial tail, Bonferroni-adjusted across candidate banks and across the ten prespecified scenario families. Ground truth is provided only to the scorer after the blind output is sealed.
 
-**Evidence taxonomy:** `NATIVE SOURCE-LEVEL` describes the Go function's outputs on synthetic schedules. `OFFLINE INTEGRITY` describes reproducibility on the released data. `LOCAL RPC VERIFIED` applies only if authentic seven-member Hub chain receipts are subsequently authenticated. `PUBLIC TESTNET COMMITMENT` applies only to a successful mined transaction committing artifact hashes. A public hash commitment never proves the truth of private-chain events.
+**Evidence taxonomy:** `NATIVE SOURCE-LEVEL` describes the Go function's outputs on synthetic schedules. `OFFLINE INTEGRITY` describes reproducibility on the released data. `LOCAL RPC VERIFIED` now denotes independently re-read local-chain source/Hub receipts, decoded events and balances; not independent external consensus. `PUBLIC TESTNET COMMITMENT` applies only to a successful mined transaction committing artifact hashes. A public hash commitment never proves the truth of private-chain events.
 
 ## Independent research contribution
 
@@ -111,8 +113,10 @@ The underlying statistical disclosure idea predates this experiment; no claim is
 - `evidence/native/`: all observed anonymity sets, synthetic truth and native test log
 - `analysis/`: blinded predictions, cryptographic seal and post-reveal scoring
 - `qa/`: source/independent reproducibility and adversarial verification
-- `figures/`: five original evidence-grounded vector figures, including on-ledger payment reconciliation
 - `site/`: animated 3D research website with local Hub explorer and clear evidence boundaries
+- `figures/`: six original reproducible research figures, including the real local Hub membership matrix
+- `site/DESIGN-NOTES.md`: visual identity, accessibility and animated 3D design rationale
+- `qa/check_site.py`: offline site and evidence-data integrity verifier
 - `EVIDENCE-MANIFEST.json`: complete allowlisted release file catalog with SHA-256 digests
 
 No private RPC credentials, dev wallets, secret keys or unpublished operator evidence are included in this public release. Private development environments should be treated as demonstrations, not third-party institutional testnets.
@@ -132,4 +136,4 @@ Official [How Enygma Works](https://docs.rayls.com/docs/how-enygma-works) and [E
 7. The seven-bank service graph exceeded PostgreSQL's default connection limit; the local Compose profile now sets max_connections=300 without resetting historical data. A separate read-only probe verified the Hub, seven privacy-node RPCs and local public chain, 9/9 endpoints (see evidence/local-rpc/).
 
 
-This README records verified source-level and researcher-controlled local-chain evidence. Public testnet commitments, independent outside consensus, external hosting and public repository publication are still pending.
+This README records verified source-level and researcher-controlled local-chain evidence. A retrospective public Rayls Testnet hash anchor is documented separately in site/public-anchor.json, and verified using python3 qa/check_anchor.py --live-rpc. It proves the digest was committed to the public Testnet after the experiments; it does not establish independent private-ledger consensus or pre-experiment prediction chronology. The repository and site are publicly hosted.

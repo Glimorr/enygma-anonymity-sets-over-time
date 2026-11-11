@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710" role="img" aria-labelledby="title desc">
+<title id="title">Observed Hub membership across six genuine local-chain batches</title>
+<desc id="desc">A six-row by seven-bank grid: 36 filled cells represent each observed six-member anonymity set. The grid shows inclusion, not who received payment.</desc>
+<rect width="1200" height="710" fill="#080611"/>
+<defs><linearGradient id="haze"><stop stop-color="#452969" stop-opacity=".75"/><stop offset="1" stop-color="#120d24" stop-opacity=".1"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="45"/></filter></defs>
+<ellipse cx="870" cy="130" rx="360" ry="160" fill="url(#haze)" opacity=".5" filter="url(#blur)"/>
+<rect x="55" y="41" width="5" height="43" rx="2.5" fill="#ecfb3e"/>
+<text x="76" y="70" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="850" fill="#f7f5ff">Six authentic Hub batches. Seven registered banks.</text>
+<text x="76" y="106" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500" fill="#c5bad9">Measured membership — never a recipient-deanonymization claim</text>
+<rect x="56" y="142" width="1088" height="445" rx="19" fill="#1a122b" stroke="#51406d"/>
+<text x="89" y="188" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#aff6d9">MINED LOCAL HUB BLOCK</text>
+<text x="300" y="188" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#aff6d9">OBSERVED ANONYMITY-SET MEMBER</text>
+<text x="326" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#f7f5ff">A</text>
+<text x="434" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#f7f5ff">B</text>
+<text x="542" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#f7f5ff">C</text>
+<text x="650" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#f7f5ff">D</text>
+<text x="758" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#f7f5ff">E</text>
+<text x="866" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#f7f5ff">F</text>
+<text x="974" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#f7f5ff">G</text>
+<text x="89" y="265" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#b69bf6">#01</text>
+<text x="139" y="265" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#c5bad9">block 4977</text>
+<rect x="292" y="239" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="293" y="240" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="326" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="400" y="239" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="401" y="240" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="434" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="508" y="239" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="509" y="240" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="542" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="616" y="239" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="617" y="240" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="650" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="724" y="239" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="725" y="240" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="758" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+
+<rect x="833" y="240" width="66" height="34" rx="9" fill="#201930" stroke="#4a3d68"/>
+<text x="866" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#907fae">—</text>
+<rect x="940" y="239" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="941" y="240" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="974" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<text x="89" y="312" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#b69bf6">#02</text>
+<text x="139" y="312" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#c5bad9">block 5016</text>
+<rect x="292" y="286" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="293" y="287" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="326" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="400" y="286" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="401" y="287" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="434" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="508" y="286" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="509" y="287" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="542" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="616" y="286" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="617" y="287" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="650" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="724" y="286" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="725" y="287" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="758" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+
+<rect x="833" y="287" width="66" height="34" rx="9" fill="#201930" stroke="#4a3d68"/>
+<text x="866" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#907fae">—</text>
+<rect x="940" y="286" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="941" y="287" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="974" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<text x="89" y="359" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#b69bf6">#03</text>
+<text x="139" y="359" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#c5bad9">block 5035</text>
+<rect x="292" y="333" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="293" y="334" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="326" y="356" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="400" y="333" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="401" y="334" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="434" y="356" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="508" y="333" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="509" y="334" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="542" y="356" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="616" y="333" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="617" y="334" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="650" y="356" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="724" y="333" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="725" y="334" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="758" y="356" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="832" y="333" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="833" y="334" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="866" y="356" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+
+<rect x="941" y="334" width="66" height="34" rx="9" fill="#201930" stroke="#4a3d68"/>
+<text x="974" y="356" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#907fae">—</text>
+<text x="89" y="406" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#b69bf6">#04</text>
+<text x="139" y="406" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#c5bad9">block 5039</text>
+<rect x="292" y="380" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="293" y="381" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="326" y="403" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="400" y="380" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="401" y="381" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="434" y="403" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="508" y="380" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="509" y="381" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="542" y="403" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="616" y="380" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="617" y="381" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="650" y="403" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+
+<rect x="725" y="381" width="66" height="34" rx="9" fill="#201930" stroke="#4a3d68"/>
+<text x="758" y="403" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#907fae">—</text>
+<rect x="832" y="380" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="833" y="381" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="866" y="403" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="940" y="380" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="941" y="381" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="974" y="403" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<text x="89" y="453" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#b69bf6">#05</text>
+<text x="139" y="453" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#c5bad9">block 5056</text>
+<rect x="292" y="427" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="293" y="428" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="326" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+
+<rect x="401" y="428" width="66" height="34" rx="9" fill="#201930" stroke="#4a3d68"/>
+<text x="434" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#907fae">—</text>
+<rect x="508" y="427" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="509" y="428" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="542" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="616" y="427" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="617" y="428" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="650" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="724" y="427" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="725" y="428" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="758" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="832" y="427" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="833" y="428" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="866" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="940" y="427" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="941" y="428" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="974" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<text x="89" y="500" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850" fill="#b69bf6">#06</text>
+<text x="139" y="500" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#c5bad9">block 5060</text>
+<rect x="292" y="474" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="293" y="475" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="326" y="497" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="400" y="474" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="401" y="475" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="434" y="497" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="508" y="474" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="509" y="475" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="542" y="497" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+
+<rect x="617" y="475" width="66" height="34" rx="9" fill="#201930" stroke="#4a3d68"/>
+<text x="650" y="497" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#907fae">—</text>
+<rect x="724" y="474" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="725" y="475" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="758" y="497" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="832" y="474" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="833" y="475" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="866" y="497" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<rect x="940" y="474" width="68" height="37" rx="10" fill="#ecfb3e" opacity=".06"/>
+<rect x="941" y="475" width="66" height="34" rx="9" fill="#293319" stroke="#d6ee4f"/>
+<text x="974" y="497" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ecfb3e">●</text>
+<line x1="90" y1="535" x2="1105" y2="535" stroke="#51406d"/>
+<text x="89" y="564" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#aff6d9">APPEARANCES</text>
+<text x="326" y="563" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#ecfb3e">6/6</text>
+<text x="434" y="563" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#f7f5ff">5/6</text>
+<text x="542" y="563" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#ecfb3e">6/6</text>
+<text x="650" y="563" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#f7f5ff">5/6</text>
+<text x="758" y="563" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#f7f5ff">5/6</text>
+<text x="866" y="563" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#f7f5ff">4/6</text>
+<text x="974" y="563" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#f7f5ff">5/6</text>
+<rect x="55" y="608" width="1090" height="40" rx="9" fill="#272039" stroke="#4d3a63"/>
+<text x="80" y="633" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#c5bad9">36 included cells = 6 observed batches × 6 members. Inclusion is NOT evidence of payment receipt.</text>
+<line x1="57" y1="660" x2="1143" y2="660" stroke="#51406d"/>
+<text x="58" y="675" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#aff6d9">SOURCE: RESEARCHER-CONTROLLED PRIVATE NETWORK HUB • RECEIPTS + INDEPENDENT ABI DECODING</text>
+</svg>

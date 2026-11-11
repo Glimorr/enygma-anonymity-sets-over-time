@@ -2,20 +2,20 @@
   "claim_scope": "NATIVE_SOURCE_PLUS_RESEARCHER_CONTROLLED_LOCAL_LEDGER",
   "files": {
     ".github/workflows/evidence.yml": {
-      "bytes": 2004,
-      "sha256": "58ab1102988d003fe8aff985562a14b728c2323f545194753f578ff6b5c9429d"
+      "bytes": 2255,
+      "sha256": "f29a9d3463f2eba1aee72b6f5a505354bc22647d6e511c5b744eace5f2428f6c"
     },
     ".github/workflows/pages.yml": {
-      "bytes": 794,
-      "sha256": "6b868a1a9a552fd13401725f089f7538e06f56e48b60bd3891eb7d4f3b36f44a"
+      "bytes": 890,
+      "sha256": "8527d35ec0d202b96f7a6ba914aa0aabe331dd1371404d4ceb014119b6c8945d"
     },
     ".gitignore": {
       "bytes": 677,
       "sha256": "8b75654cae000cc41746e7e3425a4edde2aabe87575f4b690432f6318de97824"
     },
     "README.md": {
-      "bytes": 12832,
-      "sha256": "9d17b0fedb0ead5a745bf4d0d8e47d5fbfefd60a633b9da88e28ae14f819959d"
+      "bytes": 13438,
+      "sha256": "46a05af1dba038de6edfd7329ce20f80e4258695904fe3c3252eb29c44b2f000"
     },
     "analysis/analyze_public.py": {
       "bytes": 5947,
@@ -177,9 +177,17 @@
       "bytes": 5004,
       "sha256": "86989c2ab5c28aed3d007566321381a3b6f078c64dd9132849867052309ce76d"
     },
+    "figures/06-real-hub-membership.svg": {
+      "bytes": 18686,
+      "sha256": "54f2f808951df44e0358f2307a0d35019825512e80aa8b69ade4f871b7adf3c7"
+    },
     "figures/render_figures.py": {
       "bytes": 7615,
       "sha256": "5e048802fa2358a710412fdfa24e633e2ef7358d7632efe9b1e3d7341bac5670"
+    },
+    "figures/render_live_membership.py": {
+      "bytes": 4219,
+      "sha256": "60bfc464734c98a2c72d2060e5dda7a82cc3ec81782c7edd2d59cce0f4959d43"
     },
     "figures/render_live_settlement.py": {
       "bytes": 6296,
@@ -197,9 +205,17 @@
       "bytes": 3216,
       "sha256": "d67ba7728a368684ba0835ce147295409db567e6670c253c475979736a296602"
     },
+    "qa/check_anchor.py": {
+      "bytes": 3545,
+      "sha256": "35e19f1105c9d5a6582a4a70692093f3148a2b785d713f2d43ee34f400264a97"
+    },
     "qa/check_manifest.py": {
       "bytes": 2257,
       "sha256": "7357f73a3af8396ef12b54f51d34b6fe7cde1da1a52e15ddee0f13e2d3fac889"
+    },
+    "qa/check_site.py": {
+      "bytes": 5149,
+      "sha256": "ddb83c750b79722ecd2ae9eba95a5c464409b0f652019463ba98864c3c2ab893"
     },
     "qa/native-verification-report.json": {
       "bytes": 732,
@@ -210,8 +226,12 @@
       "sha256": "e452fc59a1b9e687f806bae72a5bae86403008f0b2e0123a018ced069a6f6409"
     },
     "qa/showcase_readonly.py": {
-      "bytes": 3375,
-      "sha256": "1cbba1fb32707398f0e90aee11c1d1ecc7ca1ddc7a1440be65b7a38c91137bc4"
+      "bytes": 3703,
+      "sha256": "13e91e9570fcd9aafae47a9b91b2c4cc6c34069a20f6a9c55733d53df68515a1"
+    },
+    "qa/site-audit.json": {
+      "bytes": 481,
+      "sha256": "e41576793b6f2b5ae8dd555aabe7060529cc1ee4de154baa3fcb6ffae7c834e7"
     },
     "qa/verify_local_live.py": {
       "bytes": 9982,
@@ -233,6 +253,10 @@
       "bytes": 95,
       "sha256": "f00b79cd519d514aeb5267e98b1a030f2b26f8288b074f7b7dcb5a1380f12ab7"
     },
+    "research/EVALUATOR-READINESS-AUDIT.md": {
+      "bytes": 4278,
+      "sha256": "9929a80fd5fc4bc7f36e418f4d9a7448589c8c8fa5de13d1ccb3315452b370f8"
+    },
     "research/LIVE-SEVEN-PROTOCOL-v1.md": {
       "bytes": 3816,
       "sha256": "41f0f50042ad89987dbd71243ef2283de1ccfa36e54ce3d6d9dfce8dad3ee6f3"
@@ -252,6 +276,18 @@
     "research/PROTOCOL-v1.sha256": {
       "bytes": 90,
       "sha256": "42e24cce7f87fc0b9af79c58aa27cbdd5d573d9a328e646a1fb95289bd99a337"
+    },
+    "research/THREE-VIDEO-RECORDING-AND-VOICEOVER.md": {
+      "bytes": 5484,
+      "sha256": "72769e15dd81155649ab26b8710537694987fa0940ea93e85382b05503dfa9a4"
+    },
+    "research/X-ARTICLE-FINAL-DRAFT.md": {
+      "bytes": 11109,
+      "sha256": "095349bd9144d1743a3ae3f4f2e8c907f2019c0bd9aba8eef099713c4bbde2cb"
+    },
+    "site/DESIGN-NOTES.md": {
+      "bytes": 4192,
+      "sha256": "7181d4483dafd35a3d29c9e3d0221fc1bccfb37b0e18169ae251e920739475ab"
     },
     "site/assets/01-anonymity-set-model.svg": {
       "bytes": 4071,
@@ -273,9 +309,21 @@
       "bytes": 5004,
       "sha256": "86989c2ab5c28aed3d007566321381a3b6f078c64dd9132849867052309ce76d"
     },
+    "site/assets/06-real-hub-membership.svg": {
+      "bytes": 18686,
+      "sha256": "54f2f808951df44e0358f2307a0d35019825512e80aa8b69ade4f871b7adf3c7"
+    },
     "site/assets/rayls-symbol-gradient.png": {
       "bytes": 17592,
       "sha256": "a294227251fcf625fcf8ac2bb08fbdb1b17a37142a6b272e46504c6983e6ed6d"
+    },
+    "site/bank-lens.css": {
+      "bytes": 1604,
+      "sha256": "5f3245510d767e6113a781d8df89cef95661da81f7376ff9ce2a082aef5d073d"
+    },
+    "site/bank-lens.js": {
+      "bytes": 3286,
+      "sha256": "0fa62b99387466f608e0618fef99bfa7486b484a35b7d6a1db112324dcd62ef8"
     },
     "site/data.js": {
       "bytes": 27940,
@@ -290,8 +338,8 @@
       "sha256": "10578e573e8d65322c097403e6fcad7d6e721a1a852ef46211a18a4e3eb3010b"
     },
     "site/index.html": {
-      "bytes": 35447,
-      "sha256": "0a3cddfd9ee0079c2153fb0e19631f33b4a92b7b51cdd9a0074190c806ca00ee"
+      "bytes": 36139,
+      "sha256": "de66d8d2ebbb147d2678b875430f318b027b50ddf9063fe09993a7bed1bc84f4"
     },
     "site/live-data.js": {
       "bytes": 1150,
@@ -310,15 +358,19 @@
       "sha256": "742be86e33bb58d9f1f0030468e127c3becf797dcb2f3dc497a01f15fc14b1dc"
     },
     "site/polish.css": {
-      "bytes": 9473,
-      "sha256": "1daa3021a8c7a12ff42162f3309d548d332555dbc36c7d97c81c92823fbde754"
+      "bytes": 10365,
+      "sha256": "59574cfd043122f5a54305bbbc6e4710511136b55f90893b8df62ba2366f9236"
     },
     "site/polish.js": {
       "bytes": 4317,
       "sha256": "adef6dd1089c33af4ab08c35d642a9174854270d6b9bc711ca56c97f29a9c5c0"
+    },
+    "site/public-anchor.js": {
+      "bytes": 1150,
+      "sha256": "a86bc438b4228fb0da232a5695133012ec3d97cc4994916c63ef7e0d056d97ca"
     }
   },
-  "files_merkle_equivalent_sha256": "336d751b7ca50bfcb60467c53bff9a397dd68c070c9b605bd9a335653e0592cb",
-  "publication_state": "STAGED_NOT_PUBLISHED",
+  "files_merkle_equivalent_sha256": "cb2c77fe2b296184532245c86ec8dde41ef9b7d3b712e06067db16b218474a4d",
+  "publication_state": "FROZEN_READY_FOR_PUBLICATION",
   "schema_version": 1
 }

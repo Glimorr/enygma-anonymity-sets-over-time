@@ -58,6 +58,7 @@ pre{padding:19px;background:#070e18;border:1px solid #25354e;border-radius:11px;
 </style>
 <link rel="stylesheet" href="experience.css"/>
 <link rel="stylesheet" href="polish.css"/>
+<link rel="stylesheet" href="bank-lens.css"/>
 <link rel="canonical" href="https://glimorr.github.io/enygma-anonymity-sets-over-time/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Enygma Anonymity Sets Over Time | Independent Rayls Research"/>
@@ -163,7 +164,7 @@ pre{padding:19px;background:#070e18;border:1px solid #25354e;border-radius:11px;
 </section>
 
 <section class="container reveal" id="lab">
-<div class="kicker">02 / Source-level experiments</div>
+<div class="kicker">03 / Source-level experiments</div>
 <h2>Explore the observable evidence without seeing the recipient labels.</h2>
 <p class="description">These are actual outputs of the pinned Go selection function with synthetic schedules. The chart shows membership frequency, not a probability that a bank received money. Use the reveal switch to compare a blind inference with researcher-only ground truth.</p>
 <div class="lab panel">
@@ -178,7 +179,7 @@ pre{padding:19px;background:#070e18;border:1px solid #25354e;border-radius:11px;
 <p class="inline-note" style="margin-top:17px"><strong>Boundary of this result:</strong> Native source tests validate the selection mechanism. An institutional privacy finding on a functioning 7+ participant Hub requires authentic, independently checkable network observations.</p>
 </section>
 <section class="container reveal live-evidence" id="live">
-<div class="kicker">03 / Observed on local blockchain</div>
+<div class="kicker">04 / Observed on local blockchain</div>
 <h2>Not just a model. <span class="gradient">Six real Hub batches, decoded.</span></h2>
 <p class="description">The researcher-controlled seven-bank lab emitted actual EnygmaTransfer events on its Private Network Hub. Independent ABI decoding and fresh RPC queries confirmed six batches containing 36 encrypted transfer envelopes, with exactly six visible members per batch. Select a row to inspect the authentic local block and transaction hash.</p>
 <div class="live-summary">
@@ -213,7 +214,7 @@ pre{padding:19px;background:#070e18;border:1px solid #25354e;border-radius:11px;
 <span class="filament"></span><span class="diamond"></span><small>TRACE THE EVIDENCE</small><span class="diamond"></span><span class="filament last"></span>
 </div>
 <section class="container reveal" id="figures">
-<div class="kicker">04 / Original figures</div>
+<div class="kicker">05 / Original figures</div>
 <h2>Five original diagrams, grounded in actual observations.</h2>
 <p class="description">These original vector illustrations are generated from source-level measurements, actual local Hub receipts and verified balances. They clearly distinguish schematics from mined transaction evidence.</p>
 <div class="figure-grid">
@@ -222,10 +223,11 @@ pre{padding:19px;background:#070e18;border:1px solid #25354e;border-radius:11px;
 <figure class="figure"><img loading="lazy" src="assets/03-controls-and-blind-results.svg" alt="Matrix of ten blind prediction scenarios and the registered ground truth"/><figcaption><strong>Figure 3.</strong> The positive, balanced, mixed and zero-only controls.</figcaption></figure>
 <figure class="figure"><img loading="lazy" src="assets/04-evidence-boundaries.svg" alt="Evidence taxonomy diagram showing source-level observations, six verified local Hub batches, and the pending public Testnet anchor"/><figcaption><strong>Figure 4.</strong> Which evidence exists, and what it can actually prove.</figcaption></figure>
 <figure class="figure"><img loading="lazy" src="assets/05-seven-bank-settlement.svg" alt="A to B settled; A to G settled late after CTS certificate correction; all 5,000 minted units accounted for"/><figcaption><strong>Figure 5.</strong> Original local payments and exact balance reconciliation, with G’s initial timeout retained.</figcaption></figure>
+<figure class="figure"><img loading="lazy" src="assets/06-real-hub-membership.svg" alt="Six actual local Hub batches, each containing exactly six of seven banks; table shows the observed member sets and counts, not payment recipients"/><figcaption><strong>Figure 6.</strong> Actual six-by-seven local Hub membership matrix, decoded from mined receipts.</figcaption></figure>
 </div>
 </section>
 <section class="container reveal" id="evidence">
-<div class="kicker">05 / Reproduction and provenance</div>
+<div class="kicker">06 / Reproduction and provenance</div>
 <h2>Evidence that can be checked, not merely believed.</h2>
 <p class="description">The research release preserves the native observer ledger, its separately sealed ground truth and predictions, real local-chain receipts, decoded Hub events and integrity tests. Official Git revisions are pinned; local-chain evidence is never presented as independent external consensus.</p>
 <div class="reference-grid">
@@ -239,9 +241,9 @@ pre{padding:19px;background:#070e18;border:1px solid #25354e;border-radius:11px;
 <li><span>Hub, seven-bank and local-public RPC topology</span><strong class="ok">9/9 LOCAL RPC</strong></li>
 <li><span>Local seven-bank Hub receipts / 36 Enygma event envelopes</span><strong class="ok">7 RECEIPTS / VERIFIED</strong></li>
 <li><span>A→B and late A→G final balance accounting</span><strong class="ok">5,000/5,000</strong></li>
-<li><span>Public Testnet evidence commitments</span><strong class="pending">PENDING</strong></li>
+<li><span>Rayls Public Testnet archive-hash commitment</span><strong class="pending" id="public-anchor-status">PENDING</strong></li>
 </ul>
-<p style="margin-top:20px;font-size:13px;color:var(--muted)">These statuses distinguish actual local-chain receipts from the future public Rayls Testnet hash commitments. The latter remain pending.</p>
+<p style="margin-top:20px;font-size:13px;color:var(--muted)">Local-chain receipts are distinct from the public Testnet hash anchor. The archive-root commitment is retrospective, recorded after the experiments. <a href="https://testnet-explorer.rayls.com/" id="public-anchor-link" hidden rel="noopener" target="_blank">Inspect public Testnet commitment</a></p>
 </div>
 <div class="panel" style="padding:26px"><h3 style="margin-top:0">Pinned official source</h3><p style="font:12px/2 monospace;color:var(--muted);word-break:break-all" id="source-pins"></p>
 <h3>Primary research references</h3>
@@ -266,7 +268,7 @@ python3 analysis/analyze_public.py \
 </div>
 </section>
 <section class="container reveal" id="interpretation">
-<div class="kicker">06 / What the findings establish</div>
+<div class="kicker">07 / What the findings establish</div>
 <h2>Under controlled traffic, the receiver signal survived every positive test.</h2>
 <p class="description">Across seven preferred-recipient conditions, the largest membership-frequency candidate matched the hidden preferred bank. None of three pre-registered null controls triggered the family-wise significance decision. This supports a source-level privacy hypothesis, not a claim that production payments have been deanonymized.</p>
 <div class="inline-note"><strong>Why the distinction matters.</strong> Real installations introduce additional variables: multiple payment legs per batch, finalization transactions, changing network membership, background traffic, and privileged observers. We are separately assessing those controls before any wider conclusion.</div>
@@ -330,7 +332,9 @@ update();
 </script>
 <script src="live-data.js"></script>
 <script src="live-evidence.js"></script>
+<script src="bank-lens.js"></script>
 <script src="experience.js"></script>
 <script src="polish.js"></script>
+<script src="public-anchor.js"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+
+/* A bank-by-bank lens driven exclusively by recorded local Hub set membership. */
+.bank-lens{padding:14px 0 16px!important;scroll-margin-top:0}
+.bank-lens-intro{display:flex;flex-direction:column;gap:3px}
+.bank-lens-intro strong{font-size:14px;letter-spacing:-.015em;color:#f6f1ff}
+.bank-lens-intro span{font-size:12px;color:#bdb1d3}
+.bank-lens-buttons{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+.bank-lens-button{border:1px solid #6c5887;background:#231a35;color:#dcd2ed;border-radius:7px;min-width:49px;padding:8px 11px;font:750 11px ui-monospace,monospace;transition:color .22s,border-color .22s,background .22s,transform .22s}
+.bank-lens-button:hover{transform:translateY(-2px);color:white;border-color:#d0b9fb}
+.bank-lens-button[aria-pressed="true"]{background:#ecfb3e;color:#151323;border-color:#ecfb3e;box-shadow:0 0 18px #ecfb3e1c}
+.bank-lens-summary{display:flex;flex-direction:column;gap:4px;margin-top:14px;border:1px solid #64507669;border-radius:9px;padding:12px 14px;background:#120d23}
+.bank-lens-summary strong{color:#ecfb3e;font-size:14px}
+.bank-lens-summary span{font-size:12px;color:#bdb1d3;line-height:1.5}
+.hub-membership-table td.bank-lens-cell-muted{opacity:.38}
+.hub-membership-table td.bank-lens-cell-highlight{background:#dfff485e!important;outline:1px solid #ecfb3e;box-shadow:0 0 19px #ecfb3e22}
+.hub-membership-table th.bank-lens-header-highlight{color:#ecfb3e!important}
+@media(max-width:600px){.bank-lens-buttons{gap:5px}.bank-lens-button{min-width:41px;padding:7px 8px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){.bank-lens-button{transition:none}}

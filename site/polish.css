@@ -84,3 +84,20 @@
  .hero h1 .kinetic-word,.hero h1 .gradient .kinetic-word,.holo-tag,.orbit .signal-ribbon::before,.orbit::after,.orbit .orbit-aura,.hero-scroll-hint::after,.lab .chart-panel svg rect{animation:none!important;transform:none}
  .reveal h2,.reveal.show h2{transform:none;opacity:1;filter:none}
 }
+
+/* Tablet navigation: two rows instead of letting six links push the status pill offscreen. */
+@media (min-width:601px) and (max-width:1050px){
+  .nav-inner{flex-wrap:wrap;justify-content:space-between;row-gap:0;column-gap:14px;padding-top:8px;padding-bottom:7px}
+  .nav-links{order:3;flex:0 0 100%;white-space:nowrap;overflow-x:auto;max-width:100%;padding:7px 0 5px;scrollbar-width:none}
+  .nav-links::-webkit-scrollbar{display:none}
+  .status-chip{max-width:220px;text-align:center;white-space:normal}
+}
+/* Mobile first paint stays readable even if a screenshot tool freezes mid-animation. */
+@media(max-width:600px){
+  .hero h1 .kinetic-word,
+  .hero h1 .gradient .kinetic-word{
+    animation:none!important;opacity:1!important;filter:none!important;transform:none!important;
+  }
+  .hero h1{filter:none!important;max-width:100%;overflow-wrap:normal}
+  .hero p{overflow-wrap:break-word}
+}

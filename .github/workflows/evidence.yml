@@ -20,6 +20,10 @@ jobs:
         run: python3 qa/verify_public.py
       - name: Independently decode local Hub receipts without live RPC
         run: python3 qa/verify_local_live.py --check-only
+      - name: Verify site, six figures, live Hub data and accessible controls
+        run: python3 qa/check_site.py --check-only
+      - name: Check optional retrospective Rayls Public Testnet anchor
+        run: python3 qa/check_anchor.py --optional
       - name: Test tamper, omission and corruption handling
         run: python3 qa/adversarial_checks.py
       - name: Verify integrity again after adversarial attempts
