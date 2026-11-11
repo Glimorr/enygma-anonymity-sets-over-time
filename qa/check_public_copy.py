@@ -26,6 +26,10 @@ replacements=[
  ('aria-label="Illustrative 3D bank network, not experimental evidence"', 'aria-label="Illustration of seven bank participants and a private network hub; not transaction evidence"'),
  ("Five original diagrams, grounded in actual observations.", "Six original diagrams, grounded in actual observations."),
 ]
+replacements.extend([
+ ('<link rel="stylesheet" href="bank-lens.css"/>', '<link rel="stylesheet" href="bank-lens.css"/>\n<link rel="stylesheet" href="figure-viewer.css"/>'),
+ ('<script src="public-anchor.js"></script>', '<script src="public-anchor.js"></script>\n<script src="figure-viewer.js"></script>')
+])
 expected=original
 for old,new in replacements:
     assert expected.count(old)==1, "Frozen source changed or copy marker ambiguous: "+old[:75]
@@ -35,4 +39,10 @@ if len(sys.argv)==3:
     assert sys.argv[2]=="--apply", "Unrecognized mode"
     path.write_text(expected,encoding="utf-8")
 assert path.read_text(encoding="utf-8")==expected, "Non-copy change found in public site/index.html"
+for name in ("figure-viewer.css","figure-viewer.js"):
+    asset=ROOT/"site"/name
+    assert asset.is_file() and asset.stat().st_size>1000, "Missing figure viewer asset: "+name
+assert 'role="dialog"' in (ROOT/"site/figure-viewer.js").read_text(), "Viewer missing semantic dialog"
+assert "prefers-reduced-motion:reduce" in (ROOT/"site/figure-viewer.css").read_text(), "Viewer missing reduced motion"
+
 print("PUBLIC_SITE_RESEARCH_FOCUSED_COPY_AND_FROZEN_SOURCE_VERIFIED",len(replacements))
