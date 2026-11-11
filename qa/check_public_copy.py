@@ -25,6 +25,10 @@ replacements=[
   "Follow how anonymity-set membership changes across repeated transfers, then inspect the native measurements below. This schematic shows the observer model; it is not a transaction receipt."),
  ('aria-label="Illustrative 3D bank network, not experimental evidence"', 'aria-label="Illustration of seven bank participants and a private network hub; not transaction evidence"'),
  ("Five original diagrams, grounded in actual observations.", "Six original diagrams, grounded in actual observations."),
+ ('<div class="code-head">VERIFICATION COMMANDS • FROM RESEARCH REPOSITORY ROOT</div>',
+ '''<div class="code-head">VERIFICATION COMMANDS • FROZEN 93-FILE EVIDENCE ARCHIVE</div>
+<p class="description">Use the <a href="https://github.com/Glimorr/enygma-anonymity-sets-over-time/tree/5710488133292dfbe3ee1df3b731b198a5999031" target="_blank" rel="noopener">immutable research archive (Git revision 5710488)</a> for the commands below. Website improvements and the later public Testnet receipt are published separately and are intentionally not covered by the archived file manifest. In the latest public checkout, independently check that receipt with <code>python3 qa/check_anchor.py --live-rpc</code>.</p>'''),
+
 ]
 replacements.extend([
  ('<link rel="stylesheet" href="bank-lens.css"/>', '<link rel="stylesheet" href="bank-lens.css"/>\n<link rel="stylesheet" href="figure-viewer.css"/>'),
