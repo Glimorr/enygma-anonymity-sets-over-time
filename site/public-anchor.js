@@ -21,6 +21,19 @@
     link.href="https://testnet-explorer.rayls.com/tx/"+p.transaction_hash;
     link.textContent="Inspect public Testnet hash commitment";
     link.hidden=false;
+    // Post-release presentation correction. The separately published public
+    // Testnet annex cannot rewrite the 93-file archive it commits to.
+    const heroNote=document.querySelector("#question .small-note");
+    if(heroNote && heroNote.textContent.includes("Public Testnet evidence commitments remain pending.")){
+      heroNote.textContent=heroNote.textContent.replace(
+        "Public Testnet evidence commitments remain pending.",
+        "The final archive hash was retrospectively committed to Rayls Public Testnet."
+      );
+    }
+    const figureTitle=document.querySelector("#figures h2");
+    if(figureTitle && figureTitle.textContent.startsWith("Five original diagrams")){
+      figureTitle.textContent=figureTitle.textContent.replace("Five original diagrams","Six original diagrams");
+    }
   }).catch(()=>{
     label.textContent="PENDING";
     link.hidden=true;
