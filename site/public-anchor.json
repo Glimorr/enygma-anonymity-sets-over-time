@@ -1,0 +1,18 @@
+{
+  "block_hash": "0xe1da28181d87a481c9c919facdadc07dcb518a2cae0b866264f51a9b2ba3ee28",
+  "block_number": 23355102,
+  "block_timestamp": 1794405553,
+  "chain_id": 7295799,
+  "commitment": "0xee9338b512ab07401372ad98bf64e1103f11d212e70656b4e1d6c36f34b4e470",
+  "commitment_type": "files_merkle_equivalent_sha256",
+  "evidence_scope": "retrospective final archive hash after experiments; no independent private-ledger or preregistration claim",
+  "explorer_url": "https://testnet-explorer.rayls.com/tx/0x2a8a859bc6175cf4ac7ae076a61a321b9c356a8f3e7908c5a0f42d9de1825e63",
+  "from": "0xfe64d1860ee4bf7986d165ad105d2ed404e7a1f2",
+  "manifest_file_count": 93,
+  "state": "confirmed",
+  "to": "0xfe64d1860ee4bf7986d165ad105d2ed404e7a1f2",
+  "transaction_hash": "0x2a8a859bc6175cf4ac7ae076a61a321b9c356a8f3e7908c5a0f42d9de1825e63",
+  "value_wei": "0",
+  "verified_at_utc": "2026-11-11T14:02:22.263127+00:00",
+  "verified_receipt_status": 1
+}
