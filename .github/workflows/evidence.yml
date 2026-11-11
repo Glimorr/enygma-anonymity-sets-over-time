@@ -14,6 +14,11 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.14'
+      - name: Temporarily separate retrospective anchor from frozen archive audit
+        run: |
+          if test -f site/public-anchor.json; then
+            mv site/public-anchor.json "$RUNNER_TEMP/public-anchor.json"
+          fi
       - name: Verify all manifest paths and digests
         run: python3 qa/check_manifest.py
       - name: Independently recompute all 5,000 archived observations
@@ -22,12 +27,16 @@ jobs:
         run: python3 qa/verify_local_live.py --check-only
       - name: Verify site, six figures, live Hub data and accessible controls
         run: python3 qa/check_site.py --check-only
-      - name: Check optional retrospective Rayls Public Testnet anchor
-        run: python3 qa/check_anchor.py --optional
       - name: Test tamper, omission and corruption handling
         run: python3 qa/adversarial_checks.py
       - name: Verify integrity again after adversarial attempts
         run: python3 qa/check_manifest.py
+      - name: Restore and independently verify retrospective public on-chain anchor
+        run: |
+          if test -f "$RUNNER_TEMP/public-anchor.json"; then
+            mv "$RUNNER_TEMP/public-anchor.json" site/public-anchor.json
+            python3 qa/check_anchor.py --live-rpc
+          fi
 
   pinned-native-source:
     runs-on: ubuntu-latest
